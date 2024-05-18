@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "608175581486",
+    "project_id": "watermelon-clicker",
+    "storage_bucket": "watermelon-clicker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608175581486:android:f99f4828469247d6b2f2bf",
+        "android_client_info": {
+          "package_name": "com.GrassMoss.WatermelonClicker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbuNIWXcaI1TsCQeinGgo5lwiGfKQUk04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
