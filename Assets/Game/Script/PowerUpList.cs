@@ -13,7 +13,7 @@ public class PowerUpList : MonoBehaviour
     /// <summary>
     /// 開始処理
     /// </summary>
-    public void Init()
+    public void Start()
     {
         var transforms = transform.GetComponentsInChildren<Transform>();
         for (int i = 0; i < transforms.Length; i++)
