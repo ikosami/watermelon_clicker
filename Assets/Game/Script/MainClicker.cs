@@ -27,7 +27,7 @@ public class MainClicker : ClickerButton
 
     float backSuikaTimer = 0;
 
-    Action<Ball> onUse;
+    //Action<Ball> onUse;
 
     public override void Init()
     {
@@ -41,15 +41,15 @@ public class MainClicker : ClickerButton
             multiTimer = Mathf.Min(multiTimer, maxPower / 10);
         };
 
-        onUse = Ball =>
-        {
-            var power = Mathf.Pow(3, Ball.lv - 1);
-            power *= clickerMulti;
-            power *= GetMulti();
-            Monster.Instance.Damage(power);
-        };
+        //onUse = Ball =>
+        //{
+        //    var power = Mathf.Pow(3, Ball.lv - 1);
+        //    power *= clickerMulti;
+        //    power *= GetMulti();
+        //    Monster.Instance.Damage(power);
+        //};
 
-        Monster.Instance.SetEnemy();
+        //Monster.Instance.SetEnemy();
     }
 
     public float GetMulti()
@@ -90,27 +90,27 @@ public class MainClicker : ClickerButton
             }
         }
 
-        //if (isEffect)
-        //{
-        //    bigTimer = bigTimer + Time.deltaTime;
-        //    if (bigTimer > 0.1f)
-        //    {
-        //        bigTimer = 0.1f;
-        //        isEffect = false;
-        //    }
-        //}
-        //else
-        //{
-        //    bigTimer = Mathf.Max(0, bigTimer - Time.deltaTime * 2);
-        //}
-        //var size = 1 + bigTimer * 2;
-        //cube.transform.localScale = new Vector3(size, size, size);
+        if (isEffect)
+        {
+            bigTimer = bigTimer + Time.deltaTime;
+            if (bigTimer > 0.1f)
+            {
+                bigTimer = 0.1f;
+                isEffect = false;
+            }
+        }
+        else
+        {
+            bigTimer = Mathf.Max(0, bigTimer - Time.deltaTime * 2);
+        }
+        var size = 1 + bigTimer * 2;
+        cube.transform.localScale = new Vector3(size, size, size);
 
-        //cube.transform.Rotate(new Vector3(
-        //    24f * speed,
-        //    35f * speed,
-        //    3f
-        //    ) * Time.deltaTime);
+        cube.transform.Rotate(new Vector3(
+            24f * speed,
+            35f * speed,
+            3f
+            ) * Time.deltaTime);
 
         backSuikaTimer += Time.deltaTime;
         if (backSuikaTimer > 0.15f)
@@ -118,7 +118,7 @@ public class MainClicker : ClickerButton
             backSuikaTimer = 0;
             for (int i = 0; i < 4; i++)
             {
-                CreateSuika();
+                CreateSuikaPirs();
             }
         }
 
@@ -140,7 +140,7 @@ public class MainClicker : ClickerButton
                 var ball = hit.collider.gameObject.GetComponent<Ball>();
                 if (ball != null)
                 {
-                    onUse?.Invoke(ball);
+                    //onUse?.Invoke(ball);
                     ball.isDestroy = true;
                     Destroy(ball.gameObject);
                 }
@@ -168,7 +168,8 @@ public class MainClicker : ClickerButton
         var randomRotate = Quaternion.Euler(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
         var obj = Instantiate(kakeras[Random.Range(0, kakeras.Length)], cube.transform.position + new Vector3(0, 3, 0), randomRotate);
         obj.transform.localScale = Vector3.one * 0.5f;
-        obj.transform.position += new Vector3(Random.Range(-2, 2f), 3, 2);
+        obj.transform.position += new Vector3(Random.Range(-2, 2f), 3, Random.Range(-4, 4f));
+        obj.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-1f, 1), Random.Range(-1f, 1)) * 100);
         obj.transform.localScale = Vector3.one * 0.2f;
         return obj;
     }

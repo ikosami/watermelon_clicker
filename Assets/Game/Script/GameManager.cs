@@ -130,15 +130,15 @@ public class GameManager : MonoBehaviour
 
         ViewUpdate();
 
-        //mainClickerButton.onClick = () =>
-        //{
-        //    AudioManager.instance.PlaySE(0);
-        //    value += clickPower;
-        //    SaveManager.Instance.AddDouble(SaveKey.ALLNum, clickPower);
-        //    plusTextManager.SetText(clickTextStr);
-        //    ViewUpdate();
-        //    SaveManager.Instance.AddInt(SaveKey.ClickNum, 1);
-        //};
+        mainClickerButton.onClick = () =>
+        {
+            AudioManager.instance.PlaySE(0);
+            GameData.Instance.value += GameData.Instance.clickPower;
+            SaveManager.Instance.AddDouble(SaveKey.ALLNum, GameData.Instance.clickPower);
+            plusTextManager.SetText(clickTextStr);
+            ViewUpdate();
+            SaveManager.Instance.AddInt(SaveKey.ClickNum, 1);
+        };
         mainClickerButton.Init();
 
         if (!isInit)

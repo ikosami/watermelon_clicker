@@ -57,11 +57,7 @@ public class Monster : MonoBehaviour
         enemyHp -= power;
 
 
-        Vector3 mousePosition = Input.mousePosition;
-        mousePosition.z = 1;
-        // マウスのスクリーン座標をワールド座標に変換
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        PlusTextManager.Instance.SetText(FormatBigNum.GetNumStr(power), worldPosition);
+        PlusTextManager.Instance.SetText(FormatBigNum.GetNumStr(power));
 
 
         hpText.text = string.Format("{0}/{1}", FormatBigNum.GetNumStr(enemyHp), FormatBigNum.GetNumStr(enemyMaxHp));

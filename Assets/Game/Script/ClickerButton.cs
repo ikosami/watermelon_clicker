@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -14,7 +14,7 @@ public class ClickerButton : MonoBehaviour, IPointerClickHandler, IPointerDownHa
     bool isAction = false;
 
     /// <summary>
-    /// ŠJnˆ—
+    /// é–‹å§‹å‡¦ç†
     /// </summary>
     public virtual void Init()
     {
