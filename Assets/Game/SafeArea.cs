@@ -77,6 +77,21 @@ public class SafeArea : MonoBehaviour
         var bottom = PadBottom;
         //var bottom = GetAdsSize(50);
 
+#if UNITY_EDITOR
+
+        var safeArea = Screen.safeArea;
+
+        //セーフエリア分補正
+        left += AdjastHeight(canvasRect, safeArea.xMin);
+        bottom += AdjastWidth(canvasRect, safeArea.yMin);
+        right -= AdjastWidth(canvasRect, Screen.width - safeArea.xMax);
+        top -= AdjastHeight(canvasRect, Screen.height - safeArea.yMax);
+
+        RectTransform rT = transform as RectTransform;
+        rT.offsetMin = new Vector2(left, bottom);
+        rT.offsetMax = new Vector2(right, top);
+#else
+
         //セーフエリア分補正
         left += Screen.safeArea.xMin;
         bottom += Screen.safeArea.yMin;
@@ -88,5 +103,20 @@ public class SafeArea : MonoBehaviour
         RectTransform rT = transform as RectTransform;
         rT.offsetMin = new Vector2(left * scaleRate.x, bottom * scaleRate.y);
         rT.offsetMax = new Vector2(right * scaleRate.x, top * scaleRate.y);
+#endif
+    }
+
+    private float AdjastWidth(RectTransform original, float value)
+    {
+        var result = value;
+        result *= original.rect.width / Screen.width;
+        return result;
+    }
+
+    private float AdjastHeight(RectTransform original, float value)
+    {
+        var result = value;
+        result *= original.rect.height / Screen.height;
+        return result;
     }
 }

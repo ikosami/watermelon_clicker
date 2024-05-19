@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private MainClicker mainClickerButton;
     [SerializeField] private FacilityList facilityList;
+    [SerializeField] private PowerUpList powerUpList;
     [SerializeField] private PlusTextManager plusTextManager;
 
     [SerializeField] private TextMeshProUGUI valueText;
@@ -123,9 +124,10 @@ public class GameManager : MonoBehaviour
         StartCoroutine(GameData.Instance.SaveIE());
 
         facilityList.Init();
-
+        powerUpList.Init();
         UpdatePower();
 
+        //アプリを閉じていた間は少し減らして入手
         AddPower(0.7f, true);
 
         ViewUpdate();
@@ -161,11 +163,16 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
     }
+
+    //増加
     private void AddPower(float multi = 1, bool isView = false)
     {
         var addPower = GameData.Instance.power * mainClickerButton.GetMulti() * multi;
-        GameData.Instance.value += addPower;
+        powerText.text = FormatBigNum.GetNumStr(addPower) + "/s";
+
+
         var span = DateTime.Now - GameData.Instance.preUpdateTime;
+        GameData.Instance.value += addPower * span.TotalSeconds;
 
         if (isView)
         {
@@ -196,7 +203,6 @@ public class GameManager : MonoBehaviour
         }
         GameData.Instance.playTime += span;
 
-        powerText.text = string.Format("(+{0}/s)", FormatBigNum.GetNumStr(addPower));
         GameData.Instance.preUpdateTime = DateTime.Now;
         ViewUpdate();
     }
@@ -262,6 +268,7 @@ public class GameManager : MonoBehaviour
 
     public void UpdatePower()
     {
+        Debug.LogError("UpdatePower");
         var powerListItem = FacilityListData.Instance.powerUpItemList;
         var facilityListItem = FacilityListData.Instance.facilityItemList;
 
@@ -283,6 +290,7 @@ public class GameManager : MonoBehaviour
             facilityMulti[i] = 1;
         }
 
+        //パワーアップによる効果
         for (int i = 0; i < powerListItem.Count; i++)
         {
             var data = powerListItem[i];
@@ -313,6 +321,7 @@ public class GameManager : MonoBehaviour
                     break;
             }
         }
+        Debug.LogError($"clickMulti:{clickMulti} clickPar:{clickPar} clickBoost:{clickBoost} allMulti:{allMulti} facilityNumMulti:{facilityNumMulti}");
 
         int facilityNum = 0;
         for (int i = 0, len = facilityListItem.Count; i < len; i++)
@@ -349,7 +358,6 @@ public class GameManager : MonoBehaviour
 
         clickTextStr = string.Format("+{0}", FormatBigNum.GetNumStr(GameData.Instance.clickPower));
 
-        powerText.text = FormatBigNum.GetNumStr(GameData.Instance.power) + "/s";
         clickText.text = FormatBigNum.GetNumStr(GameData.Instance.clickPower) + "/click";
 
         basePowerText.text = FormatBigNum.GetNumStr(GameData.Instance.power);

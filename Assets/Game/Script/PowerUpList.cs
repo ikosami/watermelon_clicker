@@ -7,13 +7,26 @@ using UnityEngine;
 /// </summary>
 public class PowerUpList : MonoBehaviour
 {
+
+    private static PowerUpList instance;
+    public static PowerUpList Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = FindObjectOfType<PowerUpList>();
+            }
+            return instance;
+        }
+    }
     [SerializeField] PowerUp powerUpPrefab;
     private PowerUp[] powerUps;
 
     /// <summary>
     /// 開始処理
     /// </summary>
-    public void Start()
+    public void Init()
     {
         var transforms = transform.GetComponentsInChildren<Transform>();
         for (int i = 0; i < transforms.Length; i++)

@@ -38,6 +38,9 @@ public class GameData
 
         saveManager.Load();
         value = saveManager.GetDouble("value", 0);
+        //開始時に計算される
+        //clickPower = saveManager.GetDouble("click_power", 0);
+        //power = saveManager.GetDouble("power", 0);
 
         playTime = saveManager.GetTimeSpan("play_time", new TimeSpan(0));
         preUpdateTime = saveManager.GetDateTime("pre_update_time", DateTime.Now);
@@ -60,6 +63,10 @@ public class GameData
     {
         var saveManager = SaveManager.Instance;
         saveManager.SetDouble("value", value);
+        //開始時に計算される
+        //saveManager.SetDouble("click_power", clickPower);
+        //saveManager.SetDouble("power", power);
+
         saveManager.SetString("play_time", playTime.ToString());
         saveManager.SetString("pre_update_time", preUpdateTime.ToString());
 

@@ -67,7 +67,7 @@ public class MainClicker : ClickerButton
 
         if (multiTimer > 0)
         {
-            multiTimer -= Time.deltaTime;
+            multiTimer -= Time.deltaTime / 5;
             multiTimer = Mathf.Max(0, multiTimer);
             speed = 1 + multiTimer;
 
