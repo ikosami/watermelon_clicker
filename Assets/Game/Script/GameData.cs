@@ -76,4 +76,14 @@ public class GameData
 
         saveManager.Save();
     }
+
+
+
+
+    //現状獲得可能な名声
+    public double GetFame()
+    {
+        var allNum = SaveManager.Instance.GetDouble(SaveKey.ALLNum, 1);
+        return Math.Floor(Math.Sqrt(Math.Sqrt(allNum / 1000000)));
+    }
 }

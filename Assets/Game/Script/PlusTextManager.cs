@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlusTextManager : MonoBehaviour
 {
@@ -34,6 +35,7 @@ public class PlusTextManager : MonoBehaviour
             {
                 plusText[i].Init(str);
                 plusText[i].transform.position = mousePosition;
+                plusText[i].transform.position += new Vector3(0, 0.1f, 0);
                 return;
             }
         }

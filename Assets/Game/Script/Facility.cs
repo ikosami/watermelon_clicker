@@ -9,6 +9,7 @@ public class Facility : MonoBehaviour
     [SerializeField] TextMeshProUGUI descriptionText;
     [SerializeField] TextMeshProUGUI costText;
     [SerializeField] TextMeshProUGUI numText;
+    [SerializeField] TextMeshProUGUI valueText;
 
     [SerializeField] ClickerButton buyButton;
     [SerializeField] Image buttonImage;
@@ -72,6 +73,8 @@ public class Facility : MonoBehaviour
         descriptionText.text = facilityItem.description;
         costText.text = FormatBigNum.GetNumStr(facilityItem.GetCost());
         numText.text = facilityItem.GetNum().ToString();
+
+        valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(facilityItem.GetPower()));
     }
     public bool CheckLock(double value)
     {

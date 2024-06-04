@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class ScreenPowerup : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private PowerUpList powerUpList;
+    private void OnEnable()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        powerUpList.ChangeLock();
     }
 }

@@ -41,22 +41,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playTimeText;
     [SerializeField] private TextMeshProUGUI fameText;
 
-    [SerializeField] private Button resetButton;
-    [SerializeField] private Button rankingButton;
-    [SerializeField] private Button tweetButton;
-    [SerializeField] private Button adsButton;
-
-    [SerializeField] private Image resetLockImage;
-    [SerializeField] private TextMeshProUGUI resetText;
-    [SerializeField] private TextMeshProUGUI adsText;
-    [SerializeField] private TextMeshProUGUI tweetText;
-    string adsTextDefault;
-    string tweetTextDefault;
 
     [SerializeField] MainClicker mainClicker;
-    [SerializeField] FamePopup famePopup;
     [SerializeField] Popup popup;
-    private string clickTextStr = "";
+    [SerializeField] OffLineBonusPopup offLineBonusPopup;
 
 
     bool isInit = false;
@@ -65,49 +53,6 @@ public class GameManager : MonoBehaviour
     {
 
 
-        //rankingButton.onClick.AddListener(() =>
-        //{
-        //    AudioManager.instance.PlaySE(1);
-        //    naichilab.RankingLoader.Instance.SendScoreAndShowRanking(Math.Floor(power));
-        //});
-
-        adsButton.onClick.AddListener(() =>
-        {
-            AudioManager.instance.PlaySE(1);
-            GameData.Instance.adsTime = DateTime.Now;
-            UpdatePower();
-            string[] urls = new string[] { "https://twitter.com/ikosami", "https://www.youtube.com/watch?v=PKvBM3qHMOU", "https://www.youtube.com/watch?v=QbatlrUUxFs" };
-            string url = urls[UnityEngine.Random.Range(0, urls.Length)];
-
-            //Twitter投稿画面の起動
-            Application.OpenURL(url);
-        });
-
-        tweetButton.onClick.AddListener(() =>
-        {
-            AudioManager.instance.PlaySE(1);
-            GameData.Instance.tweetTime = DateTime.Now;
-            UpdatePower();
-            //urlの作成
-            string esctext = UnityWebRequest.EscapeURL(string.Format("「単位クリッカー」\n\n秒間収入が{0}になりました。\nhttps://unityroom.com/games/unit_clicker",
-                FormatBigNum.GetNumStr(GameData.Instance.power)));
-            string esctag = UnityWebRequest.EscapeURL("unity1week");
-            string url = "https://twitter.com/intent/tweet?text=" + esctext + "&hashtags=" + esctag;
-
-            //Twitter投稿画面の起動
-            Application.OpenURL(url);
-        });
-
-        resetButton.onClick.AddListener(() =>
-        {
-            AudioManager.instance.PlaySE(1);
-            double preValue = GetFame();
-            if (preValue <= 0)
-            {
-                return;
-            }
-            famePopup.Init(resetLockImage.gameObject);
-        });
     }
 
     /// <summary>
@@ -116,9 +61,6 @@ public class GameManager : MonoBehaviour
     public void Start()
     {
         instance = this;
-
-        adsTextDefault = adsText.text;
-        tweetTextDefault = tweetText.text;
 
         GameData.Instance.Load();
         StartCoroutine(GameData.Instance.SaveIE());
@@ -135,9 +77,11 @@ public class GameManager : MonoBehaviour
         mainClickerButton.onClick = () =>
         {
             AudioManager.instance.PlaySE(0);
-            GameData.Instance.value += GameData.Instance.clickPower;
-            SaveManager.Instance.AddDouble(SaveKey.ALLNum, GameData.Instance.clickPower);
-            plusTextManager.SetText(clickTextStr);
+            var value = GameData.Instance.clickPower * mainClicker.GetMulti();
+            GameData.Instance.value += value;
+            SaveManager.Instance.AddDouble(SaveKey.ALLNum, value);
+            ;
+            plusTextManager.SetText(string.Format("+{0}", FormatBigNum.GetNumStr(value)));
             ViewUpdate();
             SaveManager.Instance.AddInt(SaveKey.ClickNum, 1);
         };
@@ -150,11 +94,6 @@ public class GameManager : MonoBehaviour
         isInit = true;
     }
 
-    public double GetFame()
-    {
-        var allNum = SaveManager.Instance.GetDouble(SaveKey.ALLNum, 1);
-        return Math.Floor(Math.Sqrt(Math.Sqrt(allNum / 1000000)));
-    }
     IEnumerator AddCorutine()
     {
         while (true)
@@ -167,7 +106,7 @@ public class GameManager : MonoBehaviour
     //増加
     private void AddPower(float multi = 1, bool isView = false)
     {
-        var addPower = GameData.Instance.power * mainClickerButton.GetMulti() * multi;
+        var addPower = GameData.Instance.power * mainClickerButton.GetMulti();
         powerText.text = FormatBigNum.GetNumStr(addPower) + "/s";
 
 
@@ -178,23 +117,13 @@ public class GameManager : MonoBehaviour
         {
             //経過時間
             var minus = (int)(DateTime.Now - GameData.Instance.preUpdateTime).TotalMinutes;
-            var add = addPower * minus / 1000;
+            var add = addPower * minus * 60 * multi;
             GameData.Instance.value += add;
             if (add > 1)
             {
-                minus = Mathf.Min(minus, 60 * 6);
-                int h = (int)minus / 60;
-                int m = (int)minus % 60;
-                string timeStr = "";
-                if (h > 0)
-                {
-                    timeStr = string.Format("{0}時間{1}分", h, m);
-                }
-                else
-                {
-                    timeStr = string.Format("{0}分", m);
-                }
-                ViewPopup("放置ボーナス", string.Format("放置ボーナス {1} ({0})\n最大6時間分入手可能", timeStr, FormatBigNum.GetNumStr(add)));
+                offLineBonusPopup.SetTime(minus);
+                offLineBonusPopup.SetValue(add);
+                offLineBonusPopup.gameObject.SetActive(true);
 
                 GameData.Instance.Save();
 
@@ -224,51 +153,12 @@ public class GameManager : MonoBehaviour
         facilityList.ChangeLock();
 
 
-        if ((DateTime.Now - GameData.Instance.adsTime).Minutes < 2)
-        {
-            var seconds = (new TimeSpan(0, 2, 0) - (DateTime.Now - GameData.Instance.adsTime)).TotalSeconds;
-            adsText.text = string.Format("秒間収入3倍中 {0}", GetTime(seconds));
-        }
-        else if (adsText.text != adsTextDefault)
-        {
-            adsText.text = adsTextDefault;
-            UpdatePower();
-        }
-
-        if ((DateTime.Now - GameData.Instance.tweetTime).Minutes < 10)
-        {
-            var seconds = (new TimeSpan(0, 10, 0) - (DateTime.Now - GameData.Instance.tweetTime)).TotalSeconds;
-            tweetText.text = string.Format("秒間収入1.5倍中 {0}", GetTime(seconds));
-        }
-        else if (tweetText.text != tweetTextDefault)
-        {
-            tweetText.text = tweetTextDefault;
-            UpdatePower();
-        }
-
-        if (resetLockImage.gameObject.activeSelf)
-        {
-            if (allNum > 1000000)
-            {
-                resetLockImage.gameObject.SetActive(false);
-            }
-        }
-        else
-        {
-            resetText.text = string.Format("名声{0}", FormatBigNum.GetNumStr(GetFame()));
-        }
+        powerUpList.ChangeLock();
     }
 
-    public string GetTime(double seconds)
-    {
-        int m = (int)(seconds / 60);
-        int s = (int)seconds % 60;
-        return string.Format("{0}:{1:00}", m, s);
-    }
 
     public void UpdatePower()
     {
-        Debug.LogError("UpdatePower");
         var powerListItem = FacilityListData.Instance.powerUpItemList;
         var facilityListItem = FacilityListData.Instance.facilityItemList;
 
@@ -321,7 +211,7 @@ public class GameManager : MonoBehaviour
                     break;
             }
         }
-        Debug.LogError($"clickMulti:{clickMulti} clickPar:{clickPar} clickBoost:{clickBoost} allMulti:{allMulti} facilityNumMulti:{facilityNumMulti}");
+        //Debug.LogError($"clickMulti:{clickMulti} clickPar:{clickPar} clickBoost:{clickBoost} allMulti:{allMulti} facilityNumMulti:{facilityNumMulti}");
 
         int facilityNum = 0;
         for (int i = 0, len = facilityListItem.Count; i < len; i++)
@@ -356,7 +246,6 @@ public class GameManager : MonoBehaviour
         mainClickerButton.maxPower = clickBoost;
 
 
-        clickTextStr = string.Format("+{0}", FormatBigNum.GetNumStr(GameData.Instance.clickPower));
 
         clickText.text = FormatBigNum.GetNumStr(GameData.Instance.clickPower) + "/click";
 

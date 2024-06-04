@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,7 +20,7 @@ public class FamePopup : MonoBehaviour
         fameButton.onClick.AddListener(() =>
         {
             AudioManager.instance.PlaySE(1);
-            double preValue = GameManager.Instance.GetFame();
+            double preValue = GameData.Instance.GetFame();
             var fame = SaveManager.Instance.GetDouble("fame", preValue);
             SaveManager.Instance.SaveDelete();
             SaveManager.Instance.AddDouble("fame", fame + preValue);
@@ -31,11 +31,5 @@ public class FamePopup : MonoBehaviour
         });
 
         gameObject.SetActive(true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

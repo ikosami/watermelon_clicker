@@ -74,6 +74,7 @@ public class SafeArea : MonoBehaviour
         var left = PadLeft;
         var right = PadRight;
         var top = PadTop;
+        top *= -1;
         var bottom = PadBottom;
         //var bottom = GetAdsSize(50);
 
@@ -84,7 +85,8 @@ public class SafeArea : MonoBehaviour
         //セーフエリア分補正
         left += AdjastHeight(canvasRect, safeArea.xMin);
         bottom += AdjastWidth(canvasRect, safeArea.yMin);
-        right -= AdjastWidth(canvasRect, Screen.width - safeArea.xMax);
+        right += AdjastWidth(canvasRect, Screen.width - safeArea.xMax);
+
         top -= AdjastHeight(canvasRect, Screen.height - safeArea.yMax);
 
         RectTransform rT = transform as RectTransform;
@@ -95,7 +97,6 @@ public class SafeArea : MonoBehaviour
         //セーフエリア分補正
         left += Screen.safeArea.xMin;
         bottom += Screen.safeArea.yMin;
-        // bottom = Mathf.Max(bottom, Screen.safeArea.yMin);
         right += (Screen.safeArea.xMax - Screen.width) / 2f;
         top += (Screen.safeArea.yMax - Screen.height) / 2f;
 

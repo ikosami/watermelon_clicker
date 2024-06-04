@@ -1,4 +1,4 @@
-
+ï»¿
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,7 +35,7 @@ public class PlusText : MonoBehaviour
     }
 
     /// <summary>
-    /// XVˆ—
+    /// æ›´æ–°å‡¦ç†
     /// </summary>
     private void Update()
     {
@@ -49,6 +49,7 @@ public class PlusText : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
+            canvasGroup.alpha = 0;
             isActive = false;
             return;
         }
