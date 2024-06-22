@@ -15,6 +15,7 @@ public class FormatBigNum : MonoBehaviour
         }
 
         string[] str = { "", "K", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", "Dc", "Ud", "Dd", "Td" };
+        //string[] str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".Split("");
         int tani = 0;
 
         while (current >= 1000)

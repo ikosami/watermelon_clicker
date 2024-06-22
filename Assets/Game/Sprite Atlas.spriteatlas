@@ -42,6 +42,7 @@ SpriteAtlas:
     - 9ecab7f339d34784cb719541f6dd226f: 21300000
     - 9f856b84d34bb624e80204cc2f107c0a: 21300000
     - 40dd0745324b963488b030f6c2792134: 21300000
+    - 5ca975b549d374940a0d937a7c7d9f7b: 21300000
     - d97757e5ebaae1142b1e0ebe30bca767: 21300000
     - 7a2f9916c035b8d4182ea2c88a8813e3: 21300000
     - eb7828c657205c24198806d38bf75ca0: 21300000
@@ -49,10 +50,15 @@ SpriteAtlas:
     - 4b1cd319f5b43d5489cd170840f476fc: 21300000
     - 67d4264930b5880448b492a299a40bd2: 21300000
     - ba588c5963ad96343bac4e2cb04a8c40: 21300000
+    - 3c1b061ae4711d84d89ed7ab79eef733: 21300000
+    - c9b4f55a7cb66c7448263cf3ce6b3986: 21300000
     - 337b35aa5256d024b80de938c9aa11a4: 21300000
     - 43f4b41c89bde084eaeb636a5e46f0fd: 21300000
+    - 3e63051cda6d3024cb668201e4831ad5: 21300000
+    - d91f4efc1924ffe46865ed12dba4a93f: 21300000
     - 55d68b2e68a28344b895b0b8cb093d2c: 21300000
     - 5edc712fa4ba11a4fa8969d91027a3fb: 21300000
+    - 3c34914fec88f4a41a42a50038117db9: 21300000
     - 0b8dc7af408c127429359d967c091fd4: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -61,6 +67,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9ecab7f339d34784cb719541f6dd226f, type: 3}
   - {fileID: 21300000, guid: 9f856b84d34bb624e80204cc2f107c0a, type: 3}
   - {fileID: 21300000, guid: 40dd0745324b963488b030f6c2792134, type: 3}
+  - {fileID: 21300000, guid: 5ca975b549d374940a0d937a7c7d9f7b, type: 3}
   - {fileID: 21300000, guid: d97757e5ebaae1142b1e0ebe30bca767, type: 3}
   - {fileID: 21300000, guid: 7a2f9916c035b8d4182ea2c88a8813e3, type: 3}
   - {fileID: 21300000, guid: eb7828c657205c24198806d38bf75ca0, type: 3}
@@ -68,10 +75,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4b1cd319f5b43d5489cd170840f476fc, type: 3}
   - {fileID: 21300000, guid: 67d4264930b5880448b492a299a40bd2, type: 3}
   - {fileID: 21300000, guid: ba588c5963ad96343bac4e2cb04a8c40, type: 3}
+  - {fileID: 21300000, guid: 3c1b061ae4711d84d89ed7ab79eef733, type: 3}
+  - {fileID: 21300000, guid: c9b4f55a7cb66c7448263cf3ce6b3986, type: 3}
   - {fileID: 21300000, guid: 337b35aa5256d024b80de938c9aa11a4, type: 3}
   - {fileID: 21300000, guid: 43f4b41c89bde084eaeb636a5e46f0fd, type: 3}
+  - {fileID: 21300000, guid: 3e63051cda6d3024cb668201e4831ad5, type: 3}
+  - {fileID: 21300000, guid: d91f4efc1924ffe46865ed12dba4a93f, type: 3}
   - {fileID: 21300000, guid: 55d68b2e68a28344b895b0b8cb093d2c, type: 3}
   - {fileID: 21300000, guid: 5edc712fa4ba11a4fa8969d91027a3fb, type: 3}
+  - {fileID: 21300000, guid: 3c34914fec88f4a41a42a50038117db9, type: 3}
   - {fileID: 21300000, guid: 0b8dc7af408c127429359d967c091fd4, type: 3}
   m_PackedSpriteNamesToIndex:
   - fruit1
@@ -79,6 +91,7 @@ SpriteAtlas:
   - Frame
   - button2
   - chara1
+  - button3
   - chara2
   - fruit3
   - fruit2
@@ -86,10 +99,15 @@ SpriteAtlas:
   - button1
   - buttonPower
   - buttonShop
+  - suika_
+  - suika_icon
   - white
   - back
+  - suika2
+  - bacl
   - enemy1
   - fruit6
+  - house
   - fruit5
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Facility : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI nameText;
-    [SerializeField] TextMeshProUGUI descriptionText;
+    //[SerializeField] TextMeshProUGUI descriptionText;
     [SerializeField] TextMeshProUGUI costText;
     [SerializeField] TextMeshProUGUI numText;
     [SerializeField] TextMeshProUGUI valueText;
@@ -70,9 +70,9 @@ public class Facility : MonoBehaviour
     private void UpdateView()
     {
         nameText.text = facilityItem.name;
-        descriptionText.text = facilityItem.description;
+        //descriptionText.text = facilityItem.description;
         costText.text = FormatBigNum.GetNumStr(facilityItem.GetCost());
-        numText.text = facilityItem.GetNum().ToString();
+        numText.text = "x" + facilityItem.GetNum().ToString();
 
         valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(facilityItem.GetPower()));
     }

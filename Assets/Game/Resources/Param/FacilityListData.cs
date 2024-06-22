@@ -21,6 +21,29 @@ public class FacilityListData : ScriptableObject
 
     public List<PowerUpItem> powerUpItemList;
     public List<FacilityItem> facilityItemList;
+
+    [ContextMenu("出力 PowerUpItem")]
+    void ToStringPowerUpItem()
+    {
+        string str = "";
+        for (int i = 120; i < powerUpItemList.Count; i++)
+        {
+            PowerUpItem item = powerUpItemList[i];
+            str += item + "\n";
+        }
+        Debug.Log(str);
+    }
+    [ContextMenu("出力 FacilityItem")]
+    void ToStringFacilityItem()
+    {
+        string str = "";
+        for (int i = 0; i < facilityItemList.Count; i++)
+        {
+            FacilityItem item = facilityItemList[i];
+            str += item + "\n";
+        }
+        Debug.Log(str);
+    }
 }
 
 
@@ -35,6 +58,10 @@ public class FacilityItem
     public double basePower = 1;
     private double nowCost = 0;
 
+    public override string ToString()
+    {
+        return $"{name}\t{description}\t{id}\t{baseCost}\t{basePower}\t{nowCost}";
+    }
 
     /// <summary>
     /// 現在のコスト
@@ -120,6 +147,11 @@ public class PowerUpItem
 
     [NonSerialized]
     public bool isActive = false;
+    public override string ToString()
+    {
+        return $"{name}\t{id}\t{idIndex}\t{editNum}\t{cost}\t{manual}\t{kind}\t{power}\t{powerId}\t{lockKind}\t{lockId}\t{lockNum}\t{isDebug}";
+    }
+
 
     private string GetID()
     {
