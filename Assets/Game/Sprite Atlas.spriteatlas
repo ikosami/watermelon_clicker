@@ -39,7 +39,9 @@ SpriteAtlas:
     packedSpriteRenderDataKeys:
     - 1baf8941c8af4854dace91ca826fbcb3: 21300000
     - f38b2c626897dca40bfe891871f8c614: 21300000
+    - e67e67531b1051b4bbd1e0dc821ad55c: 21300000
     - 9ecab7f339d34784cb719541f6dd226f: 21300000
+    - c1607d2403a9f084f8eca6d1bfcbeabc: 21300000
     - 9f856b84d34bb624e80204cc2f107c0a: 21300000
     - 40dd0745324b963488b030f6c2792134: 21300000
     - 5ca975b549d374940a0d937a7c7d9f7b: 21300000
@@ -64,7 +66,9 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: 1baf8941c8af4854dace91ca826fbcb3, type: 3}
   - {fileID: 21300000, guid: f38b2c626897dca40bfe891871f8c614, type: 3}
+  - {fileID: 21300000, guid: e67e67531b1051b4bbd1e0dc821ad55c, type: 3}
   - {fileID: 21300000, guid: 9ecab7f339d34784cb719541f6dd226f, type: 3}
+  - {fileID: 21300000, guid: c1607d2403a9f084f8eca6d1bfcbeabc, type: 3}
   - {fileID: 21300000, guid: 9f856b84d34bb624e80204cc2f107c0a, type: 3}
   - {fileID: 21300000, guid: 40dd0745324b963488b030f6c2792134, type: 3}
   - {fileID: 21300000, guid: 5ca975b549d374940a0d937a7c7d9f7b, type: 3}
@@ -88,7 +92,9 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - fruit1
   - fruit4
+  - popup_frame
   - Frame
+  - jem
   - button2
   - chara1
   - button3

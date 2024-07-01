@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NaughtyAttributes;
+using System;
 using UnityEngine;
 
 
@@ -101,7 +102,7 @@ new Upgrade("無限次元収穫ネットワーク", "無限の可能性を持つ
 
 
 
-    [ContextMenu("施設のコスト")]
+    //[Button("施設のコスト")]
     private void PrivateMethod()
     {
         for (int i = 0; i < facilityListData.facilityItemList.Count && i < facilityName.Length; i++)
@@ -113,10 +114,10 @@ new Upgrade("無限次元収穫ネットワーク", "無限の可能性を持つ
             facility.description = facilityDescription[i];
         }
     }
-    [ContextMenu("強化の指定")]
+    //[Button("強化の指定")]
     private void PrivateMethod2()
     {
-        //100～199
+        //100～199 クリック
         int baseIndex = 100;
         double[] clickNums = new double[] { 80, 2500, 5000, 15000, 200000, 500000, 2500000 };
         int[] clickPower = new int[] { 2, 3, 4, 5, 5, 5, 10 };
@@ -144,7 +145,7 @@ new Upgrade("無限次元収穫ネットワーク", "無限の可能性を持つ
 
 
 
-        //300～399
+        //300～399　クリックパーセント
         baseIndex = 200;
         int[] clickParNums = new int[] { 1000, 10000, 50000, 200000, 1000000, 2000000, 7500000 };
         for (int i = 0; i < clickNums.Length; i++)
@@ -167,7 +168,7 @@ new Upgrade("無限次元収穫ネットワーク", "無限の可能性を持つ
             item.power = 1;
             item.manual = string.Format("クリックが収入の{0}%増加", "{0}");
         }
-        //300～399
+        //300～399　クリックブースト
         baseIndex = 300;
         int[] clickMaxNums = new int[] { 100, 1000, 10000, 25000, 500000, 1000000, 5000000 };
         for (int i = 0; i < clickMaxName.Length; i++)

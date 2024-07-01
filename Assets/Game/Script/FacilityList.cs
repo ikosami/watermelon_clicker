@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using IkosamiSave;
+using UnityEngine;
 
 /// <summary>
 /// 施設一覧
@@ -36,7 +37,7 @@ public class FacilityList : MonoBehaviour
     int nowUnlock = 0;
     public void ChangeLock()
     {
-        var value = SaveManager.Instance.GetDouble(SaveKey.ALLNum);
+        var value = SaveManager.Instance.GetDouble(SaveKey.ALLNum, 0);
         for (int i = nowUnlock; i < facilitys.Length; i++)
         {
             if (facilitys[i].isLock)

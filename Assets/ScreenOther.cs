@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IkosamiSave;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -29,13 +30,13 @@ public class ScreenOther : MonoBehaviour
 
         //rankingButton.onClick.AddListener(() =>
         //{
-        //    AudioManager.instance.PlaySE(1);
+        //    AudioMgr.Instance.PlaySE(1);
         //    naichilab.RankingLoader.Instance.SendScoreAndShowRanking(Math.Floor(power));
         //});
 
         adsButton.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             GameData.Instance.adsTime = DateTime.Now;
             GameManager.Instance.UpdatePower();
             string[] urls = new string[] { "https://twitter.com/ikosami", "https://www.youtube.com/watch?v=PKvBM3qHMOU", "https://www.youtube.com/watch?v=QbatlrUUxFs" };
@@ -47,7 +48,7 @@ public class ScreenOther : MonoBehaviour
 
         tweetButton.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             GameData.Instance.tweetTime = DateTime.Now;
             GameManager.Instance.UpdatePower();
             //urlの作成
@@ -64,7 +65,7 @@ public class ScreenOther : MonoBehaviour
         //名声ポップアップ
         resetButton.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             double preValue = GameData.Instance.GetFame();
             if (preValue <= 0)
             {

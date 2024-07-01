@@ -186,7 +186,7 @@ MonoBehaviour:
     id: click_par
     idIndex: 6
     editNum: 206
-    cost: 6.718750000000001e+18
+    cost: 6.71875e+18
     manual: "\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0"
     kind: 4
     power: 1
@@ -368,7 +368,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 0
     editNum: 1000
-    cost: 250
+    cost: 500
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -381,7 +381,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 1
     editNum: 1001
-    cost: 1250
+    cost: 2500
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -394,7 +394,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 2
     editNum: 1002
-    cost: 12500
+    cost: 25000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -407,7 +407,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 3
     editNum: 1003
-    cost: 125000
+    cost: 250000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -420,7 +420,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 4
     editNum: 1004
-    cost: 12500000
+    cost: 25000000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -433,7 +433,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 5
     editNum: 1005
-    cost: 62500000
+    cost: 125000000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -446,7 +446,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 6
     editNum: 1006
-    cost: 12500000000
+    cost: 25000000000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -459,7 +459,7 @@ MonoBehaviour:
     id: facilityPower_0
     idIndex: 7
     editNum: 1007
-    cost: 125000000000
+    cost: 250000000000
     manual: "\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -472,7 +472,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 0
     editNum: 1020
-    cost: 1000
+    cost: 5500
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -485,7 +485,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 1
     editNum: 1021
-    cost: 5000
+    cost: 27500
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -498,7 +498,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 2
     editNum: 1022
-    cost: 50000
+    cost: 275000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -511,7 +511,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 3
     editNum: 1023
-    cost: 500000
+    cost: 2750000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -524,7 +524,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 4
     editNum: 1024
-    cost: 50000000
+    cost: 275000000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -537,7 +537,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 5
     editNum: 1025
-    cost: 250000000
+    cost: 1375000000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -550,7 +550,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 6
     editNum: 1026
-    cost: 50000000000
+    cost: 25000000000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -563,7 +563,7 @@ MonoBehaviour:
     id: facilityPower_1
     idIndex: 7
     editNum: 1027
-    cost: 500000000000
+    cost: 250000000000
     manual: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -576,7 +576,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 0
     editNum: 1040
-    cost: 10000
+    cost: 169400
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -589,7 +589,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 1
     editNum: 1041
-    cost: 50000
+    cost: 847000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -602,7 +602,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 2
     editNum: 1042
-    cost: 500000
+    cost: 8470000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -615,7 +615,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 3
     editNum: 1043
-    cost: 5000000
+    cost: 84700000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -628,7 +628,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 4
     editNum: 1044
-    cost: 500000000
+    cost: 8470000000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -641,7 +641,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 5
     editNum: 1045
-    cost: 2500000000
+    cost: 42350000000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -654,7 +654,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 6
     editNum: 1046
-    cost: 500000000000
+    cost: 275000000000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -667,7 +667,7 @@ MonoBehaviour:
     id: facilityPower_2
     idIndex: 7
     editNum: 1047
-    cost: 5000000000000
+    cost: 2750000000000
     manual: "\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -680,7 +680,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 0
     editNum: 1060
-    cost: 500000
+    cost: 169400
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -693,7 +693,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 1
     editNum: 1061
-    cost: 2500000
+    cost: 847000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -706,7 +706,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 2
     editNum: 1062
-    cost: 25000000
+    cost: 8470000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -719,7 +719,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 3
     editNum: 1063
-    cost: 250000000
+    cost: 84700000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -732,7 +732,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 4
     editNum: 1064
-    cost: 25000000000
+    cost: 8470000000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -745,7 +745,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 5
     editNum: 1065
-    cost: 125000000000
+    cost: 42350000000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -758,7 +758,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 6
     editNum: 1066
-    cost: 25000000000000
+    cost: 8470000000000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -771,7 +771,7 @@ MonoBehaviour:
     id: facilityPower_3
     idIndex: 7
     editNum: 1067
-    cost: 250000000000000
+    cost: 84700000000000
     manual: "\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -784,7 +784,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 0
     editNum: 1080
-    cost: 15000000
+    cost: 4472160
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -797,7 +797,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 1
     editNum: 1081
-    cost: 75000000
+    cost: 22360800
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -810,7 +810,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 2
     editNum: 1082
-    cost: 750000000
+    cost: 223608000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -823,7 +823,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 3
     editNum: 1083
-    cost: 7500000000
+    cost: 2236080000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -836,7 +836,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 4
     editNum: 1084
-    cost: 750000000000
+    cost: 223608000000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -849,7 +849,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 5
     editNum: 1085
-    cost: 3750000000000
+    cost: 1118040000000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -862,7 +862,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 6
     editNum: 1086
-    cost: 750000000000000
+    cost: 223608000000000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -875,7 +875,7 @@ MonoBehaviour:
     id: facilityPower_4
     idIndex: 7
     editNum: 1087
-    cost: 7500000000000000
+    cost: 2236080000000000
     manual: "\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -888,7 +888,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 0
     editNum: 1100
-    cost: 450000000
+    cost: 147581280
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -901,7 +901,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 1
     editNum: 1101
-    cost: 2250000000
+    cost: 737906400
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -914,7 +914,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 2
     editNum: 1102
-    cost: 22500000000
+    cost: 7379064000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -927,7 +927,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 3
     editNum: 1103
-    cost: 225000000000
+    cost: 73790640000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -940,7 +940,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 4
     editNum: 1104
-    cost: 22500000000000
+    cost: 7379064000000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -953,7 +953,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 5
     editNum: 1105
-    cost: 112500000000000
+    cost: 36895320000000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -966,7 +966,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 6
     editNum: 1106
-    cost: 22500000000000000
+    cost: 7379064000000000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -979,7 +979,7 @@ MonoBehaviour:
     id: facilityPower_5
     idIndex: 7
     editNum: 1107
-    cost: 2.25e+17
+    cost: 73790640000000000
     manual: "\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -992,7 +992,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 0
     editNum: 1120
-    cost: 5695312500000000
+    cost: 3896145792
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1005,7 +1005,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 1
     editNum: 1121
-    cost: 28476562500000000
+    cost: 19480728960
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1018,7 +1018,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 2
     editNum: 1122
-    cost: 2.84765625e+17
+    cost: 194807289600
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1031,7 +1031,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 3
     editNum: 1123
-    cost: 2.84765625e+18
+    cost: 1948072896000
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 4
     editNum: 1124
-    cost: 2.84765625e+20
+    cost: 194807289600000
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1057,7 +1057,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 5
     editNum: 1125
-    cost: 1.423828125e+21
+    cost: 974036448000000
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1070,7 +1070,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 6
     editNum: 1126
-    cost: 2.84765625e+23
+    cost: 1.948072896e+17
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1083,7 +1083,7 @@ MonoBehaviour:
     id: facilityPower_6
     idIndex: 7
     editNum: 1127
-    cost: 2.84765625e+24
+    cost: 1.948072896e+18
     manual: "\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1096,7 +1096,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 0
     editNum: 1140
-    cost: 8.54296875e+19
+    cost: 128572811136
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1109,7 +1109,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 1
     editNum: 1141
-    cost: 4.271484375e+20
+    cost: 642864055680
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 2
     editNum: 1142
-    cost: 4.271484375e+21
+    cost: 6428640556800
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1135,7 +1135,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 3
     editNum: 1143
-    cost: 4.271484375e+22
+    cost: 64286405568000
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1148,7 +1148,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 4
     editNum: 1144
-    cost: 4.271484375e+24
+    cost: 6428640556800000
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 5
     editNum: 1145
-    cost: 2.1357421875e+25
+    cost: 32143202784000000
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1174,7 +1174,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 6
     editNum: 1146
-    cost: 4.271484375e+27
+    cost: 6.4286405568e+18
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1187,7 +1187,7 @@ MonoBehaviour:
     id: facilityPower_7
     idIndex: 7
     editNum: 1147
-    cost: 4.271484375e+28
+    cost: 6.4286405568e+19
     manual: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1200,7 +1200,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 0
     editNum: 1160
-    cost: 1.2814453125e+24
+    cost: 4242902767488
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1213,7 +1213,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 1
     editNum: 1161
-    cost: 6.4072265625e+24
+    cost: 21214513837440
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1226,7 +1226,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 2
     editNum: 1162
-    cost: 6.4072265625e+25
+    cost: 212145138374400
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1239,7 +1239,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 3
     editNum: 1163
-    cost: 6.4072265625e+26
+    cost: 2121451383744000
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1252,7 +1252,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 4
     editNum: 1164
-    cost: 6.4072265625e+28
+    cost: 2.121451383744e+17
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1265,7 +1265,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 5
     editNum: 1165
-    cost: 3.2036132812499996e+29
+    cost: 1.060725691872e+18
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1278,7 +1278,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 6
     editNum: 1166
-    cost: 6.4072265624999995e+31
+    cost: 2.121451383744e+20
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1291,7 +1291,7 @@ MonoBehaviour:
     id: facilityPower_8
     idIndex: 7
     editNum: 1167
-    cost: 6.4072265625e+32
+    cost: 2.121451383744e+21
     manual: "\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1304,7 +1304,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 0
     editNum: 1180
-    cost: 1.92216796875e+28
+    cost: 112012633061683
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1317,7 +1317,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 1
     editNum: 1181
-    cost: 9.61083984375e+28
+    cost: 560063165308416
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1330,7 +1330,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 2
     editNum: 1182
-    cost: 9.61083984375e+29
+    cost: 5600631653084160
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1343,7 +1343,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 3
     editNum: 1183
-    cost: 9.61083984375e+30
+    cost: 56006316530841600
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1356,7 +1356,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 4
     editNum: 1184
-    cost: 9.61083984375e+32
+    cost: 5.60063165308416e+18
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1369,7 +1369,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 5
     editNum: 1185
-    cost: 4.805419921875e+33
+    cost: 2.80031582654208e+19
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1382,7 +1382,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 6
     editNum: 1186
-    cost: 9.610839843750001e+35
+    cost: 5.60063165308416e+21
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1395,7 +1395,7 @@ MonoBehaviour:
     id: facilityPower_9
     idIndex: 7
     editNum: 1187
-    cost: 9.61083984375e+36
+    cost: 5.60063165308416e+22
     manual: "\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1408,7 +1408,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 0
     editNum: 1200
-    cost: 2.883251953125e+32
+    cost: 3696416891035550
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1421,7 +1421,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 1
     editNum: 1201
-    cost: 1.4416259765625e+33
+    cost: 18482084455177700
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1434,7 +1434,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 2
     editNum: 1202
-    cost: 1.4416259765624999e+34
+    cost: 1.84820844551777e+17
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1447,7 +1447,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 3
     editNum: 1203
-    cost: 1.4416259765625e+35
+    cost: 1.84820844551777e+18
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1460,7 +1460,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 4
     editNum: 1204
-    cost: 1.4416259765625e+37
+    cost: 1.84820844551777e+20
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1473,7 +1473,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 5
     editNum: 1205
-    cost: 7.2081298828125e+37
+    cost: 9.24104222758887e+20
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1486,7 +1486,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 6
     editNum: 1206
-    cost: 1.4416259765625e+40
+    cost: 1.84820844551777e+23
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1499,7 +1499,7 @@ MonoBehaviour:
     id: facilityPower_10
     idIndex: 7
     editNum: 1207
-    cost: 1.4416259765625e+41
+    cost: 1.84820844551777e+24
     manual: "\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1512,7 +1512,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 0
     editNum: 1220
-    cost: 4.3248779296875e+40
+    cost: 8132117160278210
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1525,7 +1525,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 1
     editNum: 1221
-    cost: 2.16243896484375e+41
+    cost: 40660585801391000
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1538,7 +1538,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 2
     editNum: 1222
-    cost: 2.16243896484375e+42
+    cost: 4.0660585801391e+17
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1551,7 +1551,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 3
     editNum: 1223
-    cost: 2.16243896484375e+43
+    cost: 4.0660585801391e+18
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1564,7 +1564,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 4
     editNum: 1224
-    cost: 2.1624389648437502e+45
+    cost: 4.0660585801391e+20
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1577,7 +1577,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 5
     editNum: 1225
-    cost: 1.081219482421875e+46
+    cost: 2.03302929006955e+21
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1590,7 +1590,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 6
     editNum: 1226
-    cost: 2.1624389648437502e+48
+    cost: 4.0660585801391e+23
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1603,7 +1603,7 @@ MonoBehaviour:
     id: facilityPower_11
     idIndex: 7
     editNum: 1227
-    cost: 2.16243896484375e+49
+    cost: 4.0660585801391e+24
     manual: "\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1616,7 +1616,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 0
     editNum: 1240
-    cost: 6.48731689453125e+44
+    cost: 2.68359866289181e+17
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1629,7 +1629,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 1
     editNum: 1241
-    cost: 3.243658447265625e+45
+    cost: 1.3417993314459e+18
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1642,7 +1642,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 2
     editNum: 1242
-    cost: 3.243658447265625e+46
+    cost: 1.3417993314459e+19
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1655,7 +1655,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 3
     editNum: 1243
-    cost: 3.2436584472656253e+47
+    cost: 1.3417993314459e+20
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1668,7 +1668,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 4
     editNum: 1244
-    cost: 3.243658447265625e+49
+    cost: 1.3417993314459e+22
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1681,7 +1681,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 5
     editNum: 1245
-    cost: 1.6218292236328125e+50
+    cost: 6.70899665722952e+22
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1694,7 +1694,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 6
     editNum: 1246
-    cost: 3.243658447265625e+52
+    cost: 1.3417993314459e+25
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1707,7 +1707,7 @@ MonoBehaviour:
     id: facilityPower_12
     idIndex: 7
     editNum: 1247
-    cost: 3.243658447265625e+53
+    cost: 1.3417993314459e+26
     manual: "\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1720,7 +1720,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 0
     editNum: 1260
-    cost: 9.730975341796877e+48
+    cost: 8.85587558754297e+18
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1733,7 +1733,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 1
     editNum: 1261
-    cost: 4.865487670898438e+49
+    cost: 4.42793779377149e+19
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1746,7 +1746,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 2
     editNum: 1262
-    cost: 4.8654876708984384e+50
+    cost: 4.42793779377148e+20
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1759,7 +1759,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 3
     editNum: 1263
-    cost: 4.865487670898438e+51
+    cost: 4.42793779377149e+21
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1772,7 +1772,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 4
     editNum: 1264
-    cost: 4.865487670898438e+53
+    cost: 4.42793779377149e+23
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1785,7 +1785,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 5
     editNum: 1265
-    cost: 2.432743835449219e+54
+    cost: 2.21396889688574e+24
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1798,7 +1798,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 6
     editNum: 1266
-    cost: 4.865487670898438e+56
+    cost: 4.42793779377149e+26
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1811,7 +1811,7 @@ MonoBehaviour:
     id: facilityPower_13
     idIndex: 7
     editNum: 1267
-    cost: 4.865487670898438e+57
+    cost: 4.42793779377149e+27
     manual: "\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -1824,7 +1824,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 0
     editNum: 1280
-    cost: 1.4596463012695315e+53
+    cost: 2.92243894388918e+20
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 2
@@ -1837,7 +1837,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 1
     editNum: 1281
-    cost: 7.298231506347657e+53
+    cost: 1.46121947194459e+21
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 3
@@ -1850,7 +1850,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 2
     editNum: 1282
-    cost: 7.298231506347657e+54
+    cost: 1.46121947194459e+22
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 4
@@ -1863,7 +1863,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 3
     editNum: 1283
-    cost: 7.298231506347657e+55
+    cost: 1.46121947194459e+23
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1876,7 +1876,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 4
     editNum: 1284
-    cost: 7.298231506347657e+57
+    cost: 1.46121947194459e+25
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1889,7 +1889,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 5
     editNum: 1285
-    cost: 3.6491157531738287e+58
+    cost: 7.30609735972295e+25
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 5
@@ -1902,7 +1902,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 6
     editNum: 1286
-    cost: 7.298231506347657e+60
+    cost: 1.46121947194459e+28
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 10
@@ -1915,7 +1915,7 @@ MonoBehaviour:
     id: facilityPower_14
     idIndex: 7
     editNum: 1287
-    cost: 7.298231506347657e+61
+    cost: 1.46121947194459e+29
     manual: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B"
     kind: 6
     power: 20
@@ -2312,7 +2312,7 @@ MonoBehaviour:
     powerId: 0
     lockKind: 2
     lockId: 1
-    lockNum: 8.000000000000001e+23
+    lockNum: 8e+23
     isDebug: 0
   - name: "\u5DE8\u5927\u65701"
     id: 
@@ -2466,70 +2466,72 @@ MonoBehaviour:
   - name: "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9"
     description: "\u4E00\u5E74\u4E2D\u30B9\u30A4\u30AB\u304C\u683D\u57F9\u3067\u304D\u308B\u7551"
     id: 1
-    baseCost: 375
+    baseCost: 550
     basePower: 5
   - name: "\u5DE5\u5834"
     description: "\u30B9\u30A4\u30AB\u3092\u7D44\u307F\u7ACB\u3066\u308B\u8B0E\u306E\u5DE5\u5834"
     id: 2
-    baseCost: 7875
+    baseCost: 16940
     basePower: 70
   - name: "\u9B54\u6CD5\u306E\u5EAD\u5712"
     description: "\u9B54\u6CD5\u306E\u529B\u3067\u4E00\u77AC\u306B\u3057\u3066\u30B9\u30A4\u30AB\u3092\u6210\u9577\u3055\u305B\u308B\u5EAD\u5712"
     id: 3
-    baseCost: 141750
+    baseCost: 447216
     basePower: 840
   - name: "\u751F\u547D\u306E\u6CC9"
     description: "\u81EA\u7136\u306E\u529B\u304C\u6E80\u3061\u308B\u6CC9\u3067\u3001\u30B9\u30A4\u30AB\u304C\u81EA\u7136\u306B\u6210\u9577\u3059\u308B"
     id: 4
-    baseCost: 3189375
+    baseCost: 14758128
     basePower: 12600
   - name: "\u53CE\u7A6B\u306E\u795E\u6BBF"
     description: "\u53E4\u4EE3\u306E\u6280\u8853\u3092\u4F7F\u3044\u3001\u5927\u5E45\u306B\u30B9\u30A4\u30AB\u306E\u751F\u7523\u3092\u5897\u3084\u3059\u795E\u6BBF"
     id: 5
-    baseCost: 57408750
+    baseCost: 389614579.2
     basePower: 151200
   - name: "\u6642\u306E\u5712"
     description: "\u6642\u9593\u3092\u64CD\u308B\u6280\u8853\u3067\u3001\u9023\u7D9A\u3057\u3066\u30B9\u30A4\u30AB\u3092\u53CE\u7A6B\u3059\u308B"
     id: 6
-    baseCost: 1291696875
+    baseCost: 12857281114
     basePower: 2268000
   - name: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F"
     description: "\u91CD\u529B\u306E\u7570\u5E38\u3092\u5229\u7528\u3057\u3066\u30B9\u30A4\u30AB\u3092\u5927\u91CF\u306B\u751F\u7523\u3059\u308B\u5DE5\u623F"
     id: 7
-    baseCost: 29063179687
+    baseCost: 424290276749
     basePower: 34020000
   - name: "\u91CD\u529B\u306E\u5EAD"
     description: "\u5F37\u5316\u3055\u308C\u305F\u91CD\u529B\u3067\u3001\u30B9\u30A4\u30AB\u306E\u6210\u9577\u3092\u4FC3\u9032\u3059\u308B\u5EAD"
     id: 8
-    baseCost: 523137234375
+    baseCost: 11201263306168
     basePower: 408240000
   - name: "\u7A7A\u9593\u306E\u6249"
     description: "\u7570\u306A\u308B\u7A7A\u9593\u304B\u3089\u77AC\u6642\u306B\u30B9\u30A4\u30AB\u3092\u904B\u3073\u8FBC\u3080\u6249"
     id: 9
-    baseCost: 11770587773437
+    baseCost: 369641689103555
     basePower: 6123600000
   - name: "\u661F\u306E\u679C\u6A39\u5712"
     description: "\u661F\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u5229\u7528\u3057\u3066\u52B9\u7387\u3088\u304F\u30B9\u30A4\u30AB\u3092\u80B2\u3066\u308B\u679C\u6A39\u5712"
     id: 10
-    baseCost: 17655881660156
+    baseCost: 813211716027821
     basePower: 6123600000
   - name: "\u5B87\u5B99\u8FB2\u5712"
     description: "\u5B87\u5B99\u306E\u72EC\u7279\u306A\u74B0\u5883\u3092\u5229\u7528\u3057\u3066\u30B9\u30A4\u30AB\u3092\u683D\u57F9\u3059\u308B\u8FB2\u5712"
     id: 11
-    baseCost: 397257337353515
+    baseCost: 26836000000000000
     basePower: 91854000000
   - name: "\u661F\u9593\u683D\u57F9\u5834"
     description: "\u5E83\u7BC4\u56F2\u306B\u661F\u9593\u3092\u6E21\u308A\u306A\u304C\u3089\u30B9\u30A4\u30AB\u3092\u80B2\u3066\u308B\u683D\u57F9\u5834"
     id: 12
-    baseCost: 8938290090454102
+    baseCost: 8.85588e+17
     basePower: 1377810000000
   - name: "\u91CF\u5B50\u53CE\u7A6B\u5834"
     description: "\u91CF\u5B50\u529B\u5B66\u306E\u539F\u7406\u3092\u7528\u3044\u3066\u7121\u6570\u306E\u30B9\u30A4\u30AB\u3092\u5373\u5EA7\u306B\u53CE\u7A6B\u3059\u308B"
     id: 13
-    baseCost: 2.0111152703521728e+17
+    baseCost: 2.92244e+19
     basePower: 20667150000000
   - name: "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8"
     description: "\u7570\u6B21\u5143\u306E\u8CC7\u6E90\u3092\u6D3B\u7528\u3057\u3066\u7121\u9650\u306B\u30B9\u30A4\u30AB\u3092\u4F9B\u7D66\u3059\u308B\u30B2\u30FC\u30C8"
     id: 14
-    baseCost: 4.525009358292389e+18
+    baseCost: 9.64405e+20
     basePower: 310007250000000
+  "\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9": "name\tid\tidIndex\teditNum\tcost\t\tmanual\tkind\t\u52B9\u679C\u5024\tpowerId\tlockKind\tlockId\tlockNum\tisDebug\r\n\u7406\u89E3\u3057\u305F\u30AF\u30EA\u30C3\u30AF\tclick\t0\t100\t100\t100.0\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t2\t0\tClick\t1\t80\tFALSE\r\n\u624B\u6163\u308C\u305F\u30AF\u30EA\u30C3\u30AF\tclick\t1\t101\t62500\t6.3\u4E07\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t3\t0\tClick\t1\t2500\tFALSE\r\n\u51C4\u8155\u30AF\u30EA\u30C3\u30AF\tclick\t2\t102\t37500000\t3750.0\u4E07\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t4\t0\tClick\t1\t5000\tFALSE\r\n\u30AF\u30EA\u30C3\u30AF\u3057\u3059\u304E\tclick\t3\t103\t21875000000\t218.8\u5104\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t5\t0\tClick\t1\t15000\tFALSE\r\n\u7570\u69D8\u306A\u30AF\u30EA\u30C3\u30AF\tclick\t4\t104\t12500000000000\t12.5\u5146\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t5\t0\tClick\t1\t200000\tFALSE\r\n\u3048\u3052\u3064\u306A\u3044\u30AF\u30EA\u30C3\u30AF\tclick\t5\t105\t7031250000000000\t7031.3\u5146\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t5\t0\tClick\t1\t500000\tFALSE\r\n\u6C38\u9060\u30AF\u30EA\u30C3\u30AB\u30FC\tclick\t6\t106\t3906250000000000000\t390.6\u4EAC\t\u30AF\u30EA\u30C3\u30AF\u304C{0}\u500D\u306B\u306A\u308B\tClick\t10\t0\tClick\t1\t2500000\tFALSE\r\n\u5F71\u97FF\u30BF\u30C3\u30D7\tclick_par\t0\t200\t100\t100.0\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t1000\tFALSE\r\n\u4EBA\u6C17\u30BF\u30C3\u30D7\tclick_par\t1\t201\t77500\t7.8\u4E07\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t10000\tFALSE\r\n\u795E\u79D8\u30BF\u30C3\u30D7\tclick_par\t2\t202\t52500000\t5250.0\u4E07\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t50000\tFALSE\r\n\u30D1\u30EF\u30FC\u30BF\u30C3\u30D7\tclick_par\t3\t203\t33125000000\t331.3\u5104\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t200000\tFALSE\r\n\u30BF\u30C3\u30D7\u306E\u795E\tclick_par\t4\t204\t20000000000000\t20.0\u5146\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t1000000\tFALSE\r\n\u4F1D\u8AAC\u306E\u30BF\u30C3\u30D7\tclick_par\t5\t205\t11718750000000000\t1.2\u4EAC\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t2000000\tFALSE\r\n\u5168\u5B87\u5B99\u30BF\u30C3\u30D7\tclick_par\t6\t206\t6718750000000000000\t671.9\u4EAC\t\u30AF\u30EA\u30C3\u30AF\u304C\u53CE\u5165\u306E{0}%\u5897\u52A0\tClickPar\t1\t0\tClick\t1\t7500000\tFALSE\r\n\u30D6\u30FC\u30B9\u30C8\u5F37\u5316\tclick_max\t0\t300\t200\t200.0\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t100\tFALSE\r\n\u30D6\u30FC\u30B9\u30C8\u8D85\u5F37\u5316\tclick_max\t1\t301\t185000\t18.5\u4E07\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t1000\tFALSE\r\n\u30B9\u30FC\u30D1\u30FC\u30D6\u30FC\u30B9\u30C8\tclick_max\t2\t302\t135000000\t1.4\u5104\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t10000\tFALSE\r\n\u30E1\u30AC\u30D6\u30FC\u30B9\u30C8\tclick_max\t3\t303\t88750000000\t887.5\u5104\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t25000\tFALSE\r\n\u30AE\u30AC\u30D6\u30FC\u30B9\u30C8\tclick_max\t4\t304\t55000000000000\t55.0\u5146\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t500000\tFALSE\r\n\u30C6\u30E9\u30D6\u30FC\u30B9\u30C8\tclick_max\t5\t305\t32812500000000000\t3.3\u4EAC\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t1000000\tFALSE\r\n\u30B3\u30B9\u30E2\u30D6\u30FC\u30B9\u30C8\tclick_max\t6\t306\t19062500000000000000\t1906.3\u4EAC\t\u6700\u5927\u30AF\u30EA\u30C3\u30AF\u30D6\u30FC\u30B9\u30C8\u304C{0}\u5897\u52A0\tClickBoost\t50\t0\tClick\t1\t5000000\tFALSE\r\n\u65BD\u8A2D\u6570\u88DC\u6B63\tfacility_num\t0\t400\t10000\t1.0\u4E07\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t10000\tFALSE\r\n\u6570\u91CF\u306E\u529B\tfacility_num\t1\t401\t37000000\t3700.0\u4E07\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t37000000\tFALSE\r\n\u591A\u6570\u306E\u529B\tfacility_num\t2\t402\t108000000000\t1080.0\u5104\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t108000000000\tFALSE\r\n\u5927\u91CF\u751F\u7523\tfacility_num\t3\t403\t284000000000000\t284.0\u5146\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t284000000000000\tFALSE\r\n\u5DE8\u5927\u5DE5\u5834\u7FA4\tfacility_num\t4\t404\t704000000000000000\t70.4\u4EAC\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t704000000000000000\tFALSE\r\n\u30B9\u30A4\u30AB\u751F\u7523\u5E1D\u56FD\tfacility_num\t5\t405\t1680000000000000000000\t16.8\u5793\t\u65BD\u8A2D1\u3064\u306B\u3064\u304D\u3001\u53CE\u5165+0.0{0}%\tFacilityNum\t2\t0\tALL\t1\t1680000000000000000000\tFALSE\r\n\u5F37\u5316\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t0\t1000\t500\t500.0\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t0\tFacility\t0\t5\tFALSE\r\n\u6539\u826F\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t1\t1001\t2500\t2500.0\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t0\tFacility\t0\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t2\t1002\t25000\t2.5\u4E07\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t0\tFacility\t0\t50\tFALSE\r\n\u62E1\u5F35\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t3\t1003\t250000\t25.0\u4E07\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t0\tFacility\t0\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t4\t1004\t25000000\t2500.0\u4E07\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t0\tFacility\t0\t200\tFALSE\r\n\u9032\u5316\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t5\t1005\t125000000\t1.3\u5104\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t0\tFacility\t0\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t6\t1006\t25000000000\t250.0\u5104\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t0\tFacility\t0\t750\tFALSE\r\n\u7A76\u6975\u7248\u30B9\u30A4\u30AB\u7551\tfacilityPower_0\t7\t1007\t250000000000\t2500.0\u5104\t\u30B9\u30A4\u30AB\u7551\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t0\tFacility\t0\t1000\tFALSE\r\n\u5F37\u5316\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t0\t1020\t5500\t5500.0\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t1\tFacility\t1\t5\tFALSE\r\n\u6539\u826F\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t1\t1021\t27500\t2.8\u4E07\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t1\tFacility\t1\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t2\t1022\t275000\t27.5\u4E07\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t1\tFacility\t1\t50\tFALSE\r\n\u62E1\u5F35\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t3\t1023\t2750000\t275.0\u4E07\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t1\tFacility\t1\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t4\t1024\t275000000\t2.8\u5104\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t1\tFacility\t1\t200\tFALSE\r\n\u9032\u5316\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t5\t1025\t1375000000\t13.8\u5104\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t1\tFacility\t1\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t6\t1026\t25000000000\t250.0\u5104\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t1\tFacility\t1\t750\tFALSE\r\n\u7A76\u6975\u7248\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\tfacilityPower_1\t7\t1027\t250000000000\t2500.0\u5104\t\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t1\tFacility\t1\t1000\tFALSE\r\n\u5F37\u5316\u7248\u5DE5\u5834\tfacilityPower_2\t0\t1040\t169400\t16.9\u4E07\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t2\tFacility\t2\t5\tFALSE\r\n\u6539\u826F\u7248\u5DE5\u5834\tfacilityPower_2\t1\t1041\t847000\t84.7\u4E07\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t2\tFacility\t2\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u5DE5\u5834\tfacilityPower_2\t2\t1042\t8470000\t847.0\u4E07\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t2\tFacility\t2\t50\tFALSE\r\n\u62E1\u5F35\u7248\u5DE5\u5834\tfacilityPower_2\t3\t1043\t84700000\t8470.0\u4E07\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t2\tFacility\t2\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u5DE5\u5834\tfacilityPower_2\t4\t1044\t8470000000\t84.7\u5104\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t2\tFacility\t2\t200\tFALSE\r\n\u9032\u5316\u7248\u5DE5\u5834\tfacilityPower_2\t5\t1045\t42350000000\t423.5\u5104\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t2\tFacility\t2\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u5DE5\u5834\tfacilityPower_2\t6\t1046\t275000000000\t2750.0\u5104\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t2\tFacility\t2\t750\tFALSE\r\n\u7A76\u6975\u7248\u5DE5\u5834\tfacilityPower_2\t7\t1047\t2750000000000\t2.8\u5146\t\u5DE5\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t2\tFacility\t2\t1000\tFALSE\r\n\u5F37\u5316\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t0\t1060\t169400\t16.9\u4E07\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t3\tFacility\t3\t5\tFALSE\r\n\u6539\u826F\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t1\t1061\t847000\t84.7\u4E07\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t3\tFacility\t3\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t2\t1062\t8470000\t847.0\u4E07\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t3\tFacility\t3\t50\tFALSE\r\n\u62E1\u5F35\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t3\t1063\t84700000\t8470.0\u4E07\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t3\tFacility\t3\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t4\t1064\t8470000000\t84.7\u5104\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t3\tFacility\t3\t200\tFALSE\r\n\u9032\u5316\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t5\t1065\t42350000000\t423.5\u5104\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t3\tFacility\t3\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t6\t1066\t8470000000000\t8.5\u5146\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t3\tFacility\t3\t750\tFALSE\r\n\u7A76\u6975\u7248\u9B54\u6CD5\u306E\u5EAD\u5712\tfacilityPower_3\t7\t1067\t84700000000000\t84.7\u5146\t\u9B54\u6CD5\u306E\u5EAD\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t3\tFacility\t3\t1000\tFALSE\r\n\u5F37\u5316\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t0\t1080\t4472160\t447.2\u4E07\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t4\tFacility\t4\t5\tFALSE\r\n\u6539\u826F\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t1\t1081\t22360800\t2236.1\u4E07\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t4\tFacility\t4\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t2\t1082\t223608000\t2.2\u5104\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t4\tFacility\t4\t50\tFALSE\r\n\u62E1\u5F35\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t3\t1083\t2236080000\t22.4\u5104\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t4\tFacility\t4\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t4\t1084\t223608000000\t2236.1\u5104\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t4\tFacility\t4\t200\tFALSE\r\n\u9032\u5316\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t5\t1085\t1118040000000\t1.1\u5146\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t4\tFacility\t4\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t6\t1086\t223608000000000\t223.6\u5146\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t4\tFacility\t4\t750\tFALSE\r\n\u7A76\u6975\u7248\u751F\u547D\u306E\u6CC9\tfacilityPower_4\t7\t1087\t2236080000000000\t2236.1\u5146\t\u751F\u547D\u306E\u6CC9\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t4\tFacility\t4\t1000\tFALSE\r\n\u5F37\u5316\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t0\t1100\t147581280\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t5\tFacility\t5\t5\tFALSE\r\n\u6539\u826F\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t1\t1101\t737906400\t7.4\u5104\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t5\tFacility\t5\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t2\t1102\t7379064000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t5\tFacility\t5\t50\tFALSE\r\n\u62E1\u5F35\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t3\t1103\t73790640000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t5\tFacility\t5\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t4\t1104\t7379064000000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t5\tFacility\t5\t200\tFALSE\r\n\u9032\u5316\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t5\t1105\t36895320000000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t5\tFacility\t5\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t6\t1106\t7379064000000000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t5\tFacility\t5\t750\tFALSE\r\n\u7A76\u6975\u7248\u53CE\u7A6B\u306E\u795E\u6BBF\tfacilityPower_5\t7\t1107\t73790640000000000\t\u8AAD\u307F\u8FBC\u3093\u3067\u3044\u307E\u3059...\t\u53CE\u7A6B\u306E\u795E\u6BBF\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t5\tFacility\t5\t1000\tFALSE\r\n\u5F37\u5316\u7248\u6642\u306E\u5712\tfacilityPower_6\t0\t1120\t3896145792\t39.0\u5104\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t6\tFacility\t6\t5\tFALSE\r\n\u6539\u826F\u7248\u6642\u306E\u5712\tfacilityPower_6\t1\t1121\t19480728960\t194.8\u5104\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t6\tFacility\t6\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u6642\u306E\u5712\tfacilityPower_6\t2\t1122\t194807289600\t1948.1\u5104\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t6\tFacility\t6\t50\tFALSE\r\n\u62E1\u5F35\u7248\u6642\u306E\u5712\tfacilityPower_6\t3\t1123\t1948072896000\t1.9\u5146\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t6\tFacility\t6\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u6642\u306E\u5712\tfacilityPower_6\t4\t1124\t194807289600000\t194.8\u5146\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t6\tFacility\t6\t200\tFALSE\r\n\u9032\u5316\u7248\u6642\u306E\u5712\tfacilityPower_6\t5\t1125\t974036448000000\t974.0\u5146\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t6\tFacility\t6\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u6642\u306E\u5712\tfacilityPower_6\t6\t1126\t194807289600000000\t19.5\u4EAC\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t6\tFacility\t6\t750\tFALSE\r\n\u7A76\u6975\u7248\u6642\u306E\u5712\tfacilityPower_6\t7\t1127\t1948072896000000000\t194.8\u4EAC\t\u6642\u306E\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t6\tFacility\t6\t1000\tFALSE\r\n\u5F37\u5316\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t0\t1140\t128572811136\t1285.7\u5104\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t7\tFacility\t7\t5\tFALSE\r\n\u6539\u826F\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t1\t1141\t642864055680\t6428.6\u5104\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t7\tFacility\t7\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t2\t1142\t6428640556800\t6.4\u5146\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t7\tFacility\t7\t50\tFALSE\r\n\u62E1\u5F35\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t3\t1143\t64286405568000\t64.3\u5146\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t7\tFacility\t7\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t4\t1144\t6428640556800000\t6428.6\u5146\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t7\tFacility\t7\t200\tFALSE\r\n\u9032\u5316\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t5\t1145\t32143202784000000\t3.2\u4EAC\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t7\tFacility\t7\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t6\t1146\t6428640556800000000\t642.9\u4EAC\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t7\tFacility\t7\t750\tFALSE\r\n\u7A76\u6975\u7248\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\tfacilityPower_7\t7\t1147\t64286405568000000000\t6428.6\u4EAC\t\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t7\tFacility\t7\t1000\tFALSE\r\n\u5F37\u5316\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t0\t1160\t4242902767488\t4.2\u5146\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t8\tFacility\t8\t5\tFALSE\r\n\u6539\u826F\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t1\t1161\t21214513837440\t21.2\u5146\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t8\tFacility\t8\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t2\t1162\t212145138374400\t212.1\u5146\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t8\tFacility\t8\t50\tFALSE\r\n\u62E1\u5F35\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t3\t1163\t2121451383744000\t2121.5\u5146\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t8\tFacility\t8\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t4\t1164\t212145138374400000\t21.2\u4EAC\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t8\tFacility\t8\t200\tFALSE\r\n\u9032\u5316\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t5\t1165\t1060725691872000000\t106.1\u4EAC\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t8\tFacility\t8\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t6\t1166\t212145138374400000000\t2.1\u5793\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t8\tFacility\t8\t750\tFALSE\r\n\u7A76\u6975\u7248\u91CD\u529B\u306E\u5EAD\tfacilityPower_8\t7\t1167\t2121451383744000000000\t21.2\u5793\t\u91CD\u529B\u306E\u5EAD\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t8\tFacility\t8\t1000\tFALSE\r\n\u5F37\u5316\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t0\t1180\t112012633061683\t112.0\u5146\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t9\tFacility\t9\t5\tFALSE\r\n\u6539\u826F\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t1\t1181\t560063165308416\t560.1\u5146\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t9\tFacility\t9\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t2\t1182\t5600631653084160\t5600.6\u5146\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t9\tFacility\t9\t50\tFALSE\r\n\u62E1\u5F35\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t3\t1183\t56006316530841600\t5.6\u4EAC\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t9\tFacility\t9\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t4\t1184\t5600631653084160000\t560.1\u4EAC\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t9\tFacility\t9\t200\tFALSE\r\n\u9032\u5316\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t5\t1185\t28003158265420800000\t2800.3\u4EAC\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t9\tFacility\t9\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t6\t1186\t5600631653084160000000\t56.0\u5793\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t9\tFacility\t9\t750\tFALSE\r\n\u7A76\u6975\u7248\u7A7A\u9593\u306E\u6249\tfacilityPower_9\t7\t1187\t56006316530841600000000\t560.1\u5793\t\u7A7A\u9593\u306E\u6249\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t9\tFacility\t9\t1000\tFALSE\r\n\u5F37\u5316\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t0\t1200\t3696416891035550\t3696.4\u5146\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t10\tFacility\t10\t5\tFALSE\r\n\u6539\u826F\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t1\t1201\t18482084455177700\t1.8\u4EAC\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t10\tFacility\t10\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t2\t1202\t184820844551777000\t18.5\u4EAC\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t10\tFacility\t10\t50\tFALSE\r\n\u62E1\u5F35\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t3\t1203\t1848208445517770000\t184.8\u4EAC\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t10\tFacility\t10\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t4\t1204\t184820844551777000000\t1.8\u5793\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t10\tFacility\t10\t200\tFALSE\r\n\u9032\u5316\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t5\t1205\t924104222758887000000\t9.2\u5793\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t10\tFacility\t10\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t6\t1206\t184820844551777000000000\t1848.2\u5793\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t10\tFacility\t10\t750\tFALSE\r\n\u7A76\u6975\u7248\u661F\u306E\u679C\u6A39\u5712\tfacilityPower_10\t7\t1207\t1848208445517770000000000\t1.8\U00025771\t\u661F\u306E\u679C\u6A39\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t10\tFacility\t10\t1000\tFALSE\r\n\u5F37\u5316\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t0\t1220\t8132117160278210\t8132.1\u5146\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t11\tFacility\t11\t5\tFALSE\r\n\u6539\u826F\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t1\t1221\t40660585801391000\t4.1\u4EAC\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t11\tFacility\t11\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t2\t1222\t406605858013910000\t40.7\u4EAC\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t11\tFacility\t11\t50\tFALSE\r\n\u62E1\u5F35\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t3\t1223\t4066058580139100000\t406.6\u4EAC\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t11\tFacility\t11\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t4\t1224\t406605858013910000000\t4.1\u5793\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t11\tFacility\t11\t200\tFALSE\r\n\u9032\u5316\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t5\t1225\t2033029290069550000000\t20.3\u5793\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t11\tFacility\t11\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t6\t1226\t406605858013910000000000\t4066.1\u5793\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t11\tFacility\t11\t750\tFALSE\r\n\u7A76\u6975\u7248\u5B87\u5B99\u8FB2\u5712\tfacilityPower_11\t7\t1227\t4066058580139100000000000\t4.1\U00025771\t\u5B87\u5B99\u8FB2\u5712\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t11\tFacility\t11\t1000\tFALSE\r\n\u5F37\u5316\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t0\t1240\t268359866289181000\t26.8\u4EAC\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t12\tFacility\t12\t5\tFALSE\r\n\u6539\u826F\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t1\t1241\t1341799331445900000\t134.2\u4EAC\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t12\tFacility\t12\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t2\t1242\t13417993314459000000\t1341.8\u4EAC\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t12\tFacility\t12\t50\tFALSE\r\n\u62E1\u5F35\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t3\t1243\t134179933144590000000\t1.3\u5793\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t12\tFacility\t12\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t4\t1244\t13417993314459000000000\t134.2\u5793\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t12\tFacility\t12\t200\tFALSE\r\n\u9032\u5316\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t5\t1245\t67089966572295200000000\t670.9\u5793\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t12\tFacility\t12\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t6\t1246\t13417993314459000000000000\t13.4\U00025771\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t12\tFacility\t12\t750\tFALSE\r\n\u7A76\u6975\u7248\u661F\u9593\u683D\u57F9\u5834\tfacilityPower_12\t7\t1247\t134179933144590000000000000\t134.2\U00025771\t\u661F\u9593\u683D\u57F9\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t12\tFacility\t12\t1000\tFALSE\r\n\u5F37\u5316\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t0\t1260\t8855875587542970000\t885.6\u4EAC\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t13\tFacility\t13\t5\tFALSE\r\n\u6539\u826F\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t1\t1261\t44279377937714900000\t4427.9\u4EAC\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t13\tFacility\t13\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t2\t1262\t442793779377148000000\t4.4\u5793\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t13\tFacility\t13\t50\tFALSE\r\n\u62E1\u5F35\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t3\t1263\t4427937793771490000000\t44.3\u5793\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t13\tFacility\t13\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t4\t1264\t442793779377149000000000\t4427.9\u5793\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t13\tFacility\t13\t200\tFALSE\r\n\u9032\u5316\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t5\t1265\t2213968896885740000000000\t2.2\U00025771\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t13\tFacility\t13\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t6\t1266\t442793779377149000000000000\t442.8\U00025771\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t13\tFacility\t13\t750\tFALSE\r\n\u7A76\u6975\u7248\u91CF\u5B50\u53CE\u7A6B\u5834\tfacilityPower_13\t7\t1267\t4427937793771490000000000000\t4427.9\U00025771\t\u91CF\u5B50\u53CE\u7A6B\u5834\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t13\tFacility\t13\t1000\tFALSE\r\n\u5F37\u5316\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t0\t1280\t292243894388918000000\t2.9\u5793\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t2\t14\tFacility\t14\t5\tFALSE\r\n\u6539\u826F\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t1\t1281\t1461219471944590000000\t14.6\u5793\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t3\t14\tFacility\t14\t25\tFALSE\r\n\u52B9\u7387\u5316\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t2\t1282\t14612194719445900000000\t146.1\u5793\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t4\t14\tFacility\t14\t50\tFALSE\r\n\u62E1\u5F35\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t3\t1283\t146121947194459000000000\t1461.2\u5793\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t14\tFacility\t14\t100\tFALSE\r\n\u9AD8\u6027\u80FD\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t4\t1284\t14612194719445900000000000\t14.6\U00025771\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t14\tFacility\t14\t200\tFALSE\r\n\u9032\u5316\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t5\t1285\t73060973597229500000000000\t73.1\U00025771\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t5\t14\tFacility\t14\t500\tFALSE\r\n\u8D85\u9AD8\u6027\u80FD\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t6\t1286\t14612194719445900000000000000\t1.5\u7A63\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t10\t14\tFacility\t14\t750\tFALSE\r\n\u7A76\u6975\u7248\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\tfacilityPower_14\t7\t1287\t146121947194459000000000000000\t14.6\u7A63\t\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\u304C{0}\u500D\u306B\u306A\u308B\tFacility\t20\t14\tFacility\t14\t1000\tFALSE\r\n\u571F\u58CC\u6539\u826F\u8A08\u753B\t\t0\t3000\t1000\t1000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t800\tFALSE\r\n\u9AD8\u5EA6\u704C\u6F11\u30B7\u30B9\u30C6\u30E0\t\t1\t3001\t1000\t1000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t800\tFALSE\r\n\u81EA\u52D5\u53CE\u7A6B\u6A5F\t\t2\t3002\t1000\t1000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t800\tFALSE\r\n\u901F\u6210\u80B2\u6210\u6CD5\t\t3\t3003\t5000\t5000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000\tFALSE\r\n\u30AF\u30ED\u30B9\u30D6\u30EA\u30FC\u30C7\u30A3\u30F3\u30B0\t\t4\t3004\t5000\t5000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000\tFALSE\r\n\u5F37\u5316\u80A5\u6599\u306E\u958B\u767A\t\t5\t3005\t5000\t5000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000\tFALSE\r\n\u8010\u75C5\u6027\u5411\u4E0A\t\t6\t3006\t5000\t5000.0\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000\tFALSE\r\n\u6C34\u5206\u7BA1\u7406\u30B7\u30B9\u30C6\u30E0\t\t7\t3007\t25000\t2.5\u4E07\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t20000\tFALSE\r\n\u65E5\u7167\u30B3\u30F3\u30C8\u30ED\u30FC\u30EB\u6280\u8853\t\t8\t3008\t5000000\t500.0\u4E07\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000\tFALSE\r\n\u54C1\u7A2E\u6539\u826F\u30D7\u30ED\u30B0\u30E9\u30E0\t\t9\t3009\t5000000\t500.0\u4E07\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000\tFALSE\r\n\u96C6\u7D04\u683D\u57F9\u6280\u6CD5\t\t10\t3010\t20000000\t2000.0\u4E07\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t16000000\tFALSE\r\n\u751F\u614B\u7CFB\u8ABF\u548C\u8FB2\u6CD5\t\t11\t3011\t5000000000\t50.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000000\tFALSE\r\n\u518D\u751F\u53EF\u80FD\u30A8\u30CD\u30EB\u30AE\u30FC\u6D3B\u7528\t\t12\t3012\t5000000000\t50.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000000\tFALSE\r\n\u7CBE\u5BC6\u683D\u57F9\u30ED\u30DC\u30C6\u30A3\u30AF\u30B9\t\t13\t3013\t5000000000\t50.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000000\tFALSE\r\n\u6301\u7D9A\u53EF\u80FD\u306A\u751F\u7523\u30B7\u30B9\u30C6\u30E0\t\t14\t3014\t5000000000\t50.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t1\t0\tALL\t1\t4000000000\tFALSE\r\n\u9AD8\u52B9\u7387\u5149\u5408\u6210\u5F37\u5316\t\t15\t3015\t500000000000\t5000.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t2\t0\tALL\t1\t400000000000\tFALSE\r\n\u30B9\u30DE\u30FC\u30C8\u8FB2\u5712\u7BA1\u7406\t\t16\t3016\t500000000000\t5000.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t2\t0\tALL\t1\t400000000000\tFALSE\r\n\u6B21\u5143\u9593\u80B2\u6210\u6280\u6CD5\t\t17\t3017\t500000000000\t5000.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t2\t0\tALL\t1\t400000000000\tFALSE\r\n\u5B87\u5B99\u9069\u5FDC\u80B2\u6210\u30AD\u30C3\u30C8\t\t18\t3018\t500000000000\t5000.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t2\t0\tALL\t1\t400000000000\tFALSE\r\n\u6642\u9593\u5236\u5FA1\u683D\u57F9\u6CD5\t\t19\t3019\t500000000000\t5000.0\u5104\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t2\t0\tALL\t1\t400000000000\tFALSE\r\n\u91CF\u5B50\u5149\u5408\u6210\u52A0\u901F\t\t20\t3020\t5000000000000000\t5000.0\u5146\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t4000000000000000\tFALSE\r\n\u661F\u9593\u80B2\u6210\u30E2\u30B8\u30E5\u30FC\u30EB\t\t21\t3021\t5000000000000000\t5000.0\u5146\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t4000000000000000\tFALSE\r\n\u591A\u6B21\u5143\u80B2\u6210\u74B0\u5883\t\t22\t3022\t5000000000000000\t5000.0\u5146\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t4000000000000000\tFALSE\r\n\u9280\u6CB3\u6A2A\u65AD\u80B2\u6210\u6280\u8853\t\t23\t3023\t5000000000000000\t5000.0\u5146\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t4000000000000000\tFALSE\r\n\u8D85\u5149\u901F\u8F38\u9001\u30B7\u30B9\u30C6\u30E0\t\t24\t3024\t5000000000000000\t5000.0\u5146\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t3\t0\tALL\t1\t4000000000000000\tFALSE\r\n\u5B87\u5B99\u898F\u6A21\u751F\u7523\u57FA\u5730\t\t25\t3025\t100000000000000000000\t1.0\u5793\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t80000000000000000000\tFALSE\r\n\u661F\u9593\u4EA4\u6613\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\t\t26\t3026\t1000000000000000000000\t10.0\u5793\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t800000000000000000000\tFALSE\r\n\u5B87\u5B99\u9023\u5408\u8FB2\u5834\t\t27\t3027\t10000000000000000000000\t100.0\u5793\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t8000000000000000000000\tFALSE\r\n\u91CF\u5B50\u754C\u5C64\u80B2\u6210\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0\t\t28\t3028\t100000000000000000000000\t1000.0\u5793\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t80000000000000000000000\tFALSE\r\n\u7121\u9650\u6B21\u5143\u53CE\u7A6B\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\t\t29\t3029\t1000000000000000000000000\t1.0\U00025771\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t800000000000000000000000\tFALSE\r\n\u5DE8\u5927\u65701\t\t30\t3030\t100000000000000000000000000\t100.0\U00025771\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t100000000000000000000000000\tFALSE\r\n\u5DE8\u5927\u65702\t\t31\t3031\t10000000000000000000000000000\t1.0\u7A63\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t10000000000000000000000000000\tFALSE\r\n\u5DE8\u5927\u65703\t\t32\t3032\t1000000000000000000000000000000\t100.0\u7A63\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t1000000000000000000000000000000\tFALSE\r\n\u5DE8\u5927\u65704\t\t33\t3033\t100000000000000000000000000000000\t1.0\u6E9D\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t100000000000000000000000000000000\tFALSE\r\n\u5DE8\u5927\u65705\t\t34\t3034\t10000000000000000000000000000000000\t100.0\u6E9D\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t5\t0\tALL\t1\t10000000000000000000000000000000000\tFALSE\r\n\u8D85\u5DE8\u5927\u65701\t\t35\t3035\t10000000000000000000000000000000000000\t10.0\u6F97\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t10\t0\tALL\t1\t10000000000000000000000000000000000000\tFALSE\r\n\u8D85\u5DE8\u5927\u65702\t\t36\t3036\t10000000000000000000000000000000000000000\t1.0\u6B63\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t10\t0\tALL\t1\t10000000000000000000000000000000000000000\tFALSE\r\n\u8D85\u5DE8\u5927\u65703\t\t37\t3037\t10000000000000000000000000000000000000000000\t1000.0\u6B63\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t10\t0\tALL\t1\t10000000000000000000000000000000000000000000\tFALSE\r\n\u8D85\u5DE8\u5927\u65704\t\t38\t3038\t10000000000000000000000000000000000000000000000\t100.0\u8F09\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t10\t0\tALL\t1\t10000000000000000000000000000000000000000000000\tFALSE\r\n\u8D85\u5DE8\u5927\u65705\t\t39\t3039\t10000000000000000000000000000000000000000000000000\t10.0\u6975\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t10\t0\tALL\t1\t10000000000000000000000000000000000000000000000000\tFALSE\r\n\u3088\u304F\u305E\u3053\u3053\u307E\u3067\t\t40\t3040\t10000000000000000000000000000000000000000000000000000\t1.0\u6052\u6CB3\u6C99\t\u53CE\u5165\u304C+{0}%\u5897\u52A0\u3059\u308B\tALL\t50\t0\tALL\t1\t10000000000000000000000000000000000000000000000000000\tFALSE"
+  "\u65BD\u8A2D": "\t\t\t\u5024\u6BB5\t\u751F\u7523\u91CF\t\r\n\u30B9\u30A4\u30AB\u7551\t\u30B9\u30A4\u30AB\u306E\u683D\u57F9\u3092\u3059\u308B\u7551\t0\t50\t1\t0\r\n\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\t\u4E00\u5E74\u4E2D\u30B9\u30A4\u30AB\u304C\u683D\u57F9\u3067\u304D\u308B\u7551\t1\t550\t5\t0\r\n\u5DE5\u5834\t\u30B9\u30A4\u30AB\u3092\u7D44\u307F\u7ACB\u3066\u308B\u8B0E\u306E\u5DE5\u5834\t2\t16940\t70\t0\r\n\u9B54\u6CD5\u306E\u5EAD\u5712\t\u9B54\u6CD5\u306E\u529B\u3067\u4E00\u77AC\u306B\u3057\u3066\u30B9\u30A4\u30AB\u3092\u6210\u9577\u3055\u305B\u308B\u5EAD\u5712\t3\t447216\t840\t0\r\n\u751F\u547D\u306E\u6CC9\t\u81EA\u7136\u306E\u529B\u304C\u6E80\u3061\u308B\u6CC9\u3067\u3001\u30B9\u30A4\u30AB\u304C\u81EA\u7136\u306B\u6210\u9577\u3059\u308B\t4\t14758128\t12600\t0\r\n\u53CE\u7A6B\u306E\u795E\u6BBF\t\u53E4\u4EE3\u306E\u6280\u8853\u3092\u4F7F\u3044\u3001\u5927\u5E45\u306B\u30B9\u30A4\u30AB\u306E\u751F\u7523\u3092\u5897\u3084\u3059\u795E\u6BBF\t5\t389614579.2\t151200\t0\r\n\u6642\u306E\u5712\t\u6642\u9593\u3092\u64CD\u308B\u6280\u8853\u3067\u3001\u9023\u7D9A\u3057\u3066\u30B9\u30A4\u30AB\u3092\u53CE\u7A6B\u3059\u308B\t6\t12857281114\t2268000\t0\r\n\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F\t\u91CD\u529B\u306E\u7570\u5E38\u3092\u5229\u7528\u3057\u3066\u30B9\u30A4\u30AB\u3092\u5927\u91CF\u306B\u751F\u7523\u3059\u308B\u5DE5\u623F\t7\t424290276749\t34020000\t0\r\n\u91CD\u529B\u306E\u5EAD\t\u5F37\u5316\u3055\u308C\u305F\u91CD\u529B\u3067\u3001\u30B9\u30A4\u30AB\u306E\u6210\u9577\u3092\u4FC3\u9032\u3059\u308B\u5EAD\t8\t11201263306168\t408240000\t0\r\n\u7A7A\u9593\u306E\u6249\t\u7570\u306A\u308B\u7A7A\u9593\u304B\u3089\u77AC\u6642\u306B\u30B9\u30A4\u30AB\u3092\u904B\u3073\u8FBC\u3080\u6249\t9\t369641689103555\t6123600000\t0\r\n\u661F\u306E\u679C\u6A39\u5712\t\u661F\u306E\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u5229\u7528\u3057\u3066\u52B9\u7387\u3088\u304F\u30B9\u30A4\u30AB\u3092\u80B2\u3066\u308B\u679C\u6A39\u5712\t10\t813211716027821\t6123600000\t0\r\n\u5B87\u5B99\u8FB2\u5712\t\u5B87\u5B99\u306E\u72EC\u7279\u306A\u74B0\u5883\u3092\u5229\u7528\u3057\u3066\u30B9\u30A4\u30AB\u3092\u683D\u57F9\u3059\u308B\u8FB2\u5712\t11\t2.6836E+16\t91854000000\t0\r\n\u661F\u9593\u683D\u57F9\u5834\t\u5E83\u7BC4\u56F2\u306B\u661F\u9593\u3092\u6E21\u308A\u306A\u304C\u3089\u30B9\u30A4\u30AB\u3092\u80B2\u3066\u308B\u683D\u57F9\u5834\t12\t8.85588E+17\t1377810000000\t0\r\n\u91CF\u5B50\u53CE\u7A6B\u5834\t\u91CF\u5B50\u529B\u5B66\u306E\u539F\u7406\u3092\u7528\u3044\u3066\u7121\u6570\u306E\u30B9\u30A4\u30AB\u3092\u5373\u5EA7\u306B\u53CE\u7A6B\u3059\u308B\t13\t2.92244E+19\t20667150000000\t0\r\n\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\t\u7570\u6B21\u5143\u306E\u8CC7\u6E90\u3092\u6D3B\u7528\u3057\u3066\u7121\u9650\u306B\u30B9\u30A4\u30AB\u3092\u4F9B\u7D66\u3059\u308B\u30B2\u30FC\u30C8\t14\t9.64405E+20\t310007250000000\t0"

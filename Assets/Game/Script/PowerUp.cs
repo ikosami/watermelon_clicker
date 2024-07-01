@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using IkosamiSave;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,7 +24,7 @@ public class PowerUp : MonoBehaviour
             {
                 return;
             }
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
 
             if (item.kind == PowerUpKind.Original)
             {

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using IkosamiSave;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,16 +14,16 @@ public class FamePopup : MonoBehaviour
     {
         closeButton.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             gameObject.SetActive(false);
         });
 
         fameButton.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             double preValue = GameData.Instance.GetFame();
             var fame = SaveManager.Instance.GetDouble("fame", preValue);
-            SaveManager.Instance.SaveDelete();
+            SaveManager.Instance.DeleteAll();
             SaveManager.Instance.AddDouble("fame", fame + preValue);
             SaveManager.Instance.Save();
             GameManager.Instance.Start();

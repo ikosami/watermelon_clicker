@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IkosamiSave;
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -76,7 +77,7 @@ public class GameManager : MonoBehaviour
 
         mainClickerButton.onClick = () =>
         {
-            AudioManager.instance.PlaySE(0);
+            AudioMgr.Instance.PlaySE(0);
             var value = GameData.Instance.clickPower * mainClicker.GetMulti();
             GameData.Instance.value += value;
             SaveManager.Instance.AddDouble(SaveKey.ALLNum, value);
@@ -228,7 +229,7 @@ public class GameManager : MonoBehaviour
         GameData.Instance.power *= 1 + (allMulti / 100.0);
         GameData.Instance.power *= 1 + (facilityNumMulti / 10000.0);
 
-        var fame = SaveManager.Instance.GetDouble("fame");
+        var fame = SaveManager.Instance.GetDouble("fame", 0);
         GameData.Instance.power *= 1 + (fame / 10.0);
 
 

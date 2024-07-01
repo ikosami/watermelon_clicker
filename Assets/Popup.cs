@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -14,7 +14,7 @@ public class Popup : MonoBehaviour
     {
         closeText.onClick.AddListener(() =>
         {
-            AudioManager.instance.PlaySE(1);
+            AudioMgr.Instance.PlaySE(1);
             gameObject.SetActive(false);
         });
     }

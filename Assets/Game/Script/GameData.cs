@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IkosamiSave;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -36,7 +37,6 @@ public class GameData
     {
         var saveManager = SaveManager.Instance;
 
-        saveManager.Load();
         value = saveManager.GetDouble("value", 0);
         //開始時に計算される
         //clickPower = saveManager.GetDouble("click_power", 0);

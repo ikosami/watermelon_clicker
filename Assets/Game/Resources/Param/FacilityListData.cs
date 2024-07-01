@@ -1,5 +1,8 @@
-﻿using System;
+﻿using IkosamiSave;
+using NaughtyAttributes;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
@@ -22,7 +25,71 @@ public class FacilityListData : ScriptableObject
     public List<PowerUpItem> powerUpItemList;
     public List<FacilityItem> facilityItemList;
 
-    [ContextMenu("出力 PowerUpItem")]
+    [Multiline]
+    public string アップグレード;
+    [Multiline]
+    public string 施設;
+
+    [Button("値反映")]
+    public void ParseData()
+    {
+        var csvData = アップグレード.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries).ToList();
+        csvData.RemoveAt(0);
+        for (int i = 0; i < csvData.Count; i++)
+        {
+            string line = csvData[i];
+            var columns = line.Split('\t');
+
+            if (i >= powerUpItemList.Count)
+            {
+                Debug.LogError($"powerUpItemListの数が足りません ({i}:{csvData.Count}/{powerUpItemList.Count})");
+                return;
+            }
+            var item = powerUpItemList[i];
+
+            item.name = columns[0];
+            item.id = columns[1];
+            item.idIndex = Parse.ToInt(columns[2], 0);
+            item.editNum = Parse.ToInt(columns[3], 0);
+            item.cost = Parse.ToDouble(columns[4], 1);
+            item.manual = columns[6];
+            item.kind = (PowerUpKind)Enum.Parse(typeof(PowerUpKind), columns[7]);
+            item.power = Parse.ToDouble(columns[8], 1);
+            item.powerId = Parse.ToInt(columns[9], 0);
+            item.lockKind = (PowerUpKind)Enum.Parse(typeof(PowerUpKind), columns[10]);
+            item.lockId = Parse.ToInt(columns[11], 1);
+            item.lockNum = Parse.ToDouble(columns[12], 1);
+            item.isDebug = Parse.ToBool(columns[13], false);
+
+        }
+    }
+
+    [Button("施設")]
+    public void ParseFacility()
+    {
+        var csvData = 施設.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries).ToList();
+        csvData.RemoveAt(0);
+        for (int i = 0; i < csvData.Count; i++)
+        {
+            string line = csvData[i];
+            var columns = line.Split('\t');
+
+            if (i >= facilityItemList.Count)
+            {
+                Debug.LogError($"facilityItemListの数が足りません ({i}:{csvData.Count}/{facilityItemList.Count})");
+                return;
+            }
+            var item = facilityItemList[i];
+
+            item.name = columns[0];
+            item.description = columns[1];
+            item.id = Parse.ToInt(columns[2], 0);
+            item.baseCost = Parse.ToDouble(columns[3], 1);
+            item.basePower = Parse.ToDouble(columns[4], 1);
+        }
+    }
+
+    //[Button("出力 PowerUpItem")]
     void ToStringPowerUpItem()
     {
         string str = "";
@@ -33,7 +100,7 @@ public class FacilityListData : ScriptableObject
         }
         Debug.Log(str);
     }
-    [ContextMenu("出力 FacilityItem")]
+    //[Button("出力 FacilityItem")]
     void ToStringFacilityItem()
     {
         string str = "";
@@ -43,6 +110,11 @@ public class FacilityListData : ScriptableObject
             str += item + "\n";
         }
         Debug.Log(str);
+    }
+
+    public FacilityItem GetData(int iD)
+    {
+        return facilityItemList.Find(x => x.id == iD);
     }
 }
 
@@ -85,7 +157,7 @@ public class FacilityItem
 
     public int GetNum()
     {
-        return SaveManager.Instance.GetInt("facility_item_" + id);
+        return SaveManager.Instance.GetInt("facility_item_" + id, 0);
     }
 
     public void Buy(int v)
@@ -101,7 +173,7 @@ public class FacilityItem
         //    GameManager.Instance.ViewPopup("おめでとうございます！", "ついに正の工場にたどり着きました！\n");
         //}
 
-        AudioManager.instance.PlaySE(1);
+        AudioMgr.Instance.PlaySE(1);
         GameData.Instance.value -= nowCost;
         SaveManager.Instance.SetInt("facility_item_" + id, GetNum() + v);
         GameManager.Instance.UpdatePower();
