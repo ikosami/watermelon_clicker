@@ -3,6 +3,7 @@ using NaughtyAttributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -35,17 +36,13 @@ public class FacilityListData : ScriptableObject
     {
         var csvData = アップグレード.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries).ToList();
         csvData.RemoveAt(0);
+        powerUpItemList.Clear();
         for (int i = 0; i < csvData.Count; i++)
         {
             string line = csvData[i];
             var columns = line.Split('\t');
 
-            if (i >= powerUpItemList.Count)
-            {
-                Debug.LogError($"powerUpItemListの数が足りません ({i}:{csvData.Count}/{powerUpItemList.Count})");
-                return;
-            }
-            var item = powerUpItemList[i];
+            var item = new PowerUpItem();
 
             item.name = columns[0];
             item.id = columns[1];
@@ -60,8 +57,11 @@ public class FacilityListData : ScriptableObject
             item.lockId = Parse.ToInt(columns[11], 1);
             item.lockNum = Parse.ToDouble(columns[12], 1);
             item.isDebug = Parse.ToBool(columns[13], false);
+            powerUpItemList.Add(item);
 
         }
+        EditorUtility.SetDirty(this);
+        AssetDatabase.SaveAssets();
     }
 
     [Button("施設")]
@@ -69,24 +69,25 @@ public class FacilityListData : ScriptableObject
     {
         var csvData = 施設.Split(new char[] { '\n' }, System.StringSplitOptions.RemoveEmptyEntries).ToList();
         csvData.RemoveAt(0);
+        facilityItemList.Clear();
         for (int i = 0; i < csvData.Count; i++)
         {
             string line = csvData[i];
             var columns = line.Split('\t');
 
-            if (i >= facilityItemList.Count)
-            {
-                Debug.LogError($"facilityItemListの数が足りません ({i}:{csvData.Count}/{facilityItemList.Count})");
-                return;
-            }
-            var item = facilityItemList[i];
+            var item = new FacilityItem();
 
             item.name = columns[0];
             item.description = columns[1];
             item.id = Parse.ToInt(columns[2], 0);
             item.baseCost = Parse.ToDouble(columns[3], 1);
             item.basePower = Parse.ToDouble(columns[4], 1);
+            facilityItemList.Add(item);
         }
+        EditorUtility.SetDirty(this);
+        AssetDatabase.SaveAssets();
+
+
     }
 
     //[Button("出力 PowerUpItem")]
