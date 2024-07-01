@@ -1,0 +1,6 @@
+[submodule "Assets/ikosami_lib"]
+	path = Assets/ikosami_lib
+url=https://gitlab.com/ikosami/ikosami_lib.git
+[submodule "Assets/ads"]
+	path = Assets/ads
+url=https://gitlab.com/ikosami/ads.git
