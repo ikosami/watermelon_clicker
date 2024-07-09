@@ -22,13 +22,18 @@ public class Facility : MonoBehaviour
     private bool isActive = true;
     [NonSerialized]
     public bool isLock = true;
+    [SerializeField] ParticleSystem _particleSystem;
 
     private void Start()
     {
         buyButton.onClick = () =>
         {
-            facilityItem.Buy(1);
-            UpdateView();
+            bool isBuy = facilityItem.Buy(1);
+            if (isBuy)
+            {
+                _particleSystem.Play();
+                UpdateView();
+            }
         };
         buyButton.Init();
     }
@@ -41,8 +46,8 @@ public class Facility : MonoBehaviour
         }
         if (!isActive && GameData.Instance.value >= facilityItem.GetNowCost())
         {
-            buttonImage.color = defaultColor;
-            costText.color = Color.green;
+            buttonImage.color = Color.white;
+            costText.color = defaultColor;
             isActive = true;
         }
         else if (isActive && GameData.Instance.value < facilityItem.GetNowCost())

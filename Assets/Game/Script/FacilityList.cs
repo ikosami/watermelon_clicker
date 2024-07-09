@@ -7,6 +7,7 @@ using UnityEngine;
 public class FacilityList : MonoBehaviour
 {
     [SerializeField] Facility facilityPrefab;
+    [SerializeField] Transform parent;
     private Facility[] facilitys;
 
     /// <summary>
@@ -14,21 +15,16 @@ public class FacilityList : MonoBehaviour
     /// </summary>
     public void Init()
     {
-        var transforms = transform.GetComponentsInChildren<Transform>();
-        for (int i = 0; i < transforms.Length; i++)
+        foreach (Transform t in parent)
         {
-            if (transforms[i].gameObject == gameObject)
-            {
-                continue;
-            }
-            Destroy(transforms[i].gameObject);
+            Destroy(t.gameObject);
         }
 
         var facilityItems = FacilityListData.Instance.facilityItemList;
         facilitys = new Facility[facilityItems.Count];
         for (int i = 0; i < facilitys.Length; i++)
         {
-            facilitys[i] = Instantiate(facilityPrefab, transform);
+            facilitys[i] = Instantiate(facilityPrefab, parent);
             facilitys[i].SetItem(facilityItems[i]);
         }
         nowUnlock = 0;

@@ -112,15 +112,16 @@ public class MainClicker : ClickerButton
             3f
             ) * Time.deltaTime);
 
-        backSuikaTimer += Time.deltaTime;
-        if (backSuikaTimer > 0.15f)
-        {
-            backSuikaTimer = 0;
-            for (int i = 0; i < 4; i++)
-            {
-                CreateSuikaPirs();
-            }
-        }
+        //スイカを降らせる
+        //backSuikaTimer += Time.deltaTime;
+        //if (backSuikaTimer > 0.15f)
+        //{
+        //    backSuikaTimer = 0;
+        //    for (int i = 0; i < 4; i++)
+        //    {
+        //        CreateSuikaPirs();
+        //    }
+        //}
 
         //クリック位置にレイを飛ばして2D当たり判定の確認　Ballなら消す
         if (Input.GetMouseButtonDown(0))

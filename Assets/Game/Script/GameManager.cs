@@ -3,8 +3,6 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Networking;
-using UnityEngine.UI;
 
 /// <summary>
 /// ゲームメイン
@@ -45,16 +43,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] MainClicker mainClicker;
     [SerializeField] Popup popup;
-    [SerializeField] OffLineBonusPopup offLineBonusPopup;
 
 
     bool isInit = false;
 
-    public void Awake()
-    {
-
-
-    }
 
     /// <summary>
     /// 開始処理
@@ -63,6 +55,9 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
+        PopupManager.CanvasSize = new Vector2(720, 1280);
+
+        //セーブデータの読み込み
         GameData.Instance.Load();
         StartCoroutine(GameData.Instance.SaveIE());
 
@@ -70,8 +65,7 @@ public class GameManager : MonoBehaviour
         powerUpList.Init();
         UpdatePower();
 
-        //アプリを閉じていた間は少し減らして入手
-        AddPower(0.7f, true);
+        AddPower();
 
         ViewUpdate();
 
@@ -105,33 +99,31 @@ public class GameManager : MonoBehaviour
     }
 
     //増加
-    private void AddPower(float multi = 1, bool isView = false)
+    private void AddPower()
     {
         var addPower = GameData.Instance.power * mainClickerButton.GetMulti();
         powerText.text = FormatBigNum.GetNumStr(addPower) + "/s";
 
 
-        var span = DateTime.Now - GameData.Instance.preUpdateTime;
-        GameData.Instance.value += addPower * span.TotalSeconds;
-
-        if (isView)
+        //経過時間
+        var minus = (int)(DateTime.Now - GameData.Instance.preUpdateTime).TotalMinutes;
+        minus = Mathf.Min(minus, OffLineBonusPopup.OfflineTimeMax);
+        var add = addPower * minus * 60 * 0.1f;
+        //経過時間が
+        if (add > 1)
         {
-            //経過時間
-            var minus = (int)(DateTime.Now - GameData.Instance.preUpdateTime).TotalMinutes;
-            var add = addPower * minus * 60 * multi;
-            GameData.Instance.value += add;
-            if (add > 1)
-            {
-                offLineBonusPopup.SetTime(minus);
-                offLineBonusPopup.SetValue(add);
-                offLineBonusPopup.gameObject.SetActive(true);
 
-                GameData.Instance.Save();
-
-                SaveManager.Instance.AddDouble(SaveKey.ALLNum, add);
-            }
+            var offLineBonusPopup = PopupManager.Create<OffLineBonusPopup>();
+            offLineBonusPopup.SetTime(minus);
+            offLineBonusPopup.SetValue(add);
+            offLineBonusPopup.Open();
         }
-        GameData.Instance.playTime += span;
+        else
+        {
+            var span = DateTime.Now - GameData.Instance.preUpdateTime;
+            GameData.Instance.value += addPower * span.TotalSeconds;
+            GameData.Instance.playTime += span;
+        }
 
         GameData.Instance.preUpdateTime = DateTime.Now;
         ViewUpdate();

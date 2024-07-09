@@ -420,15 +420,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 354510898095809251, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 354510898095809251, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 354510898095809251, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 354510898095809251, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2868762345788463252, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4278190080
+      value: 4279247728
       objectReference: {fileID: 0}
     - target: {fileID: 3540399724945250170, guid: 3ec881e3afee9464cb781472399e24e3, type: 3}
       propertyPath: m_Name
@@ -530,6 +530,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a34752ac33dbf954996554cf727b7308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsPopupList: 1
+  Title: {fileID: 0}
+  Body: {fileID: 0}
+  CloseButton: {fileID: 0}
+  Button:
+  - {fileID: 2487926509716570987}
+  ButtonText: []
+  touchBlocker: {fileID: 0}
+  FrameImage: {fileID: 0}
+  IsKeyClose: 0
+  animator: {fileID: 0}
   titleText: {fileID: 238973160311177310}
   bodyText: {fileID: 3043017762709040258}
   barText: {fileID: 2311136624594970199}

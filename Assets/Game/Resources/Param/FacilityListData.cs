@@ -163,11 +163,11 @@ public class FacilityItem
         return SaveManager.Instance.GetInt("facility_item_" + id, 0);
     }
 
-    public void Buy(int v)
+    public bool Buy(int v)
     {
         if (GameData.Instance.value < nowCost)
         {
-            return;
+            return false;
         }
 
         // Unity1week用
@@ -180,6 +180,7 @@ public class FacilityItem
         GameData.Instance.value -= nowCost;
         SaveManager.Instance.SetInt("facility_item_" + id, GetNum() + v);
         GameManager.Instance.UpdatePower();
+        return true;
     }
 
 }
