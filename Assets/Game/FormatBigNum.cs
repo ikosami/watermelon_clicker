@@ -14,7 +14,7 @@ public class FormatBigNum : MonoBehaviour
             return "Infinity";
         }
 
-        string[] str = { "", "K", "M", "B", "T", "Qa", "Qi", "Sx", "Sp", "Oc", "No", "Dc", "Ud", "Dd", "Td" };
+        string[] str = { "", "K", "M", "B", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL" };
         //string[] str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".Split("");
         int tani = 0;
 

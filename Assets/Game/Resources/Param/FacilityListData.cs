@@ -31,6 +31,7 @@ public class FacilityListData : ScriptableObject
     [Multiline]
     public string 施設;
 
+#if UNITY_EDITOR
     [Button("値反映")]
     public void ParseData()
     {
@@ -113,6 +114,7 @@ public class FacilityListData : ScriptableObject
         Debug.Log(str);
     }
 
+#endif
     public FacilityItem GetData(int iD)
     {
         return facilityItemList.Find(x => x.id == iD);

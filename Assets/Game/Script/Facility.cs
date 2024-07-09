@@ -16,6 +16,7 @@ public class Facility : MonoBehaviour
     [SerializeField] GameObject lockObj;
 
     [SerializeField] Color redColor;
+    [SerializeField] Color defaultColor;
 
     private FacilityItem facilityItem;
     private bool isActive = true;
@@ -40,7 +41,7 @@ public class Facility : MonoBehaviour
         }
         if (!isActive && GameData.Instance.value >= facilityItem.GetNowCost())
         {
-            buttonImage.color = Color.white;
+            buttonImage.color = defaultColor;
             costText.color = Color.green;
             isActive = true;
         }
@@ -78,7 +79,7 @@ public class Facility : MonoBehaviour
     }
     public bool CheckLock(double value)
     {
-        isLock = facilityItem.baseCost / 10 >= value;
+        isLock = facilityItem.baseCost / 100 >= value;
         return isLock;
     }
 }
