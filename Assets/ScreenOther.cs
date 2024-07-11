@@ -119,7 +119,7 @@ public class ScreenOther : MonoBehaviour
         }
         else
         {
-            resetText.text = $"名声　{FormatBigNum.GetNumStr(GameData.Instance.GetFame())}\n{fame}";
+            resetText.text = $"名声　{FormatBigNum.GetNumStr(GameData.Instance.GetFame())}/ 現在所持{fame}";
         }
 
     }
