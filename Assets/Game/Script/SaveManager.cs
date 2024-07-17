@@ -99,27 +99,19 @@ public class SaveManagerDic : SaveManager
         var data = saveData[key];
         return data.ToString();
     }
-    public void AddDouble(string key, double value)
-    {
-        SetDouble(key, GetDouble(key) + value);
-    }
-    public override DateTime GetDateTime(string key, DateTime defaultValue)
-    {
-        var data = GetString(key, "");
-        DateTime.TryParse(data, out defaultValue);
-        return defaultValue;
-    }
-    public override TimeSpan GetTimeSpan(string key, TimeSpan defaultValue)
-    {
-        var data = GetString(key, "");
-        TimeSpan.TryParse(data, out defaultValue);
-        return defaultValue;
-    }
 
+    public override void Delete(string key)
+    {
+        saveData.Remove(key);
+    }
     public override void Save()
     {
         var data = MiniJSON.Json.Serialize(saveData);
         PlayerPrefs.SetString("save_data", data);
     }
 
+    public override object GetAllData()
+    {
+        return saveData;
+    }
 }

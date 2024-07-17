@@ -115,11 +115,11 @@ public class ScreenOther : MonoBehaviour
         var fame = SaveManager.Instance.GetDouble("fame", 0);
         if (resetLockImage.gameObject.activeSelf)
         {
-            resetText.text = $"名声　{FormatBigNum.GetNumStr(lockNum)}でリセット可能\n{fame}";
+            resetText.text = $"総生産量{FormatBigNum.GetNumStr(lockNum)}で名声入手リセットができます\n{fame}";
         }
         else
         {
-            resetText.text = $"名声　{FormatBigNum.GetNumStr(GameData.Instance.GetFame())}/ 現在所持{fame}";
+            resetText.text = $"入手できる名声{FormatBigNum.GetNumStr(GameData.Instance.GetFame())}\n現在所持{fame}";
         }
 
     }

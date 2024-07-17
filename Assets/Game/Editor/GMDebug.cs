@@ -26,11 +26,13 @@ public class GMDebug : MonoBehaviour
 
     static void Add(int hour)
     {
-        var add = GameData.Instance.power * hour * 60 * 60;
+        var timeSecound = hour * 60 * 60;
+        var add = GameData.Instance.power * timeSecound;
 
         var offLineBonusPopup = PopupManager.Create<OffLineBonusPopup>();
         offLineBonusPopup.SetTime(hour * 60);
         offLineBonusPopup.SetValue(add);
         offLineBonusPopup.Open();
+        GameData.Instance.AddTime(new System.TimeSpan(0, 0, timeSecound));
     }
 }

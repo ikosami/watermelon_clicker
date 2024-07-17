@@ -38,6 +38,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI multiText;
     [SerializeField] private TextMeshProUGUI clickNumText;
     [SerializeField] private TextMeshProUGUI playTimeText;
+    [SerializeField] private TextMeshProUGUI playTimeAllText;
     [SerializeField] private TextMeshProUGUI fameText;
 
 
@@ -104,7 +105,6 @@ public class GameManager : MonoBehaviour
         var addPower = GameData.Instance.power * mainClickerButton.GetMulti();
         powerText.text = FormatBigNum.GetNumStr(addPower) + "/s";
 
-
         //経過時間
         var minus = (int)(DateTime.Now - GameData.Instance.preUpdateTime).TotalMinutes;
         minus = Mathf.Min(minus, OffLineBonusPopup.OfflineTimeMax);
@@ -122,7 +122,8 @@ public class GameManager : MonoBehaviour
         {
             var span = DateTime.Now - GameData.Instance.preUpdateTime;
             GameData.Instance.value += addPower * span.TotalSeconds;
-            GameData.Instance.playTime += span;
+            GameData.Instance.AddTime(span);
+
         }
 
         GameData.Instance.preUpdateTime = DateTime.Now;
@@ -142,11 +143,21 @@ public class GameManager : MonoBehaviour
         var allNum = SaveManager.Instance.GetDouble(SaveKey.ALLNum, 1);
         allNumText.text = FormatBigNum.GetNumStr(allNum);
         clickNumText.text = SaveManager.Instance.GetInt(SaveKey.ClickNum, 1).ToString();
-        playTimeText.text = GameData.Instance.playTime.ToString(@"d\.hh\:mm\:ss");
+        playTimeText.text = FormatTimeSpan(GameData.Instance.playTime);
+        playTimeAllText.text = FormatTimeSpan(GameData.Instance.playTimeAll);
         facilityList.ChangeLock();
 
 
         powerUpList.ChangeLock();
+    }
+    static string FormatTimeSpan(TimeSpan timeSpan)
+    {
+        int days = timeSpan.Days;
+        int hours = timeSpan.Hours;
+        int minutes = timeSpan.Minutes;
+        int seconds = timeSpan.Seconds;
+
+        return $"{days}d {hours:00}h {minutes:00}m {seconds:00}s";
     }
 
 
@@ -222,7 +233,7 @@ public class GameManager : MonoBehaviour
         GameData.Instance.power *= 1 + (facilityNumMulti / 10000.0);
 
         var fame = SaveManager.Instance.GetDouble("fame", 0);
-        GameData.Instance.power *= 1 + (fame / 10.0);
+        GameData.Instance.power *= 1 + (fame / 100.0);
 
 
         if ((DateTime.Now - GameData.Instance.adsTime).Minutes < 2)

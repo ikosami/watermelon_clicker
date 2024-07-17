@@ -231,7 +231,7 @@ public class PowerUpItem
 
     private string GetID()
     {
-        return id + "_" + idIndex;
+        return "power_up_" + id + "_" + idIndex;
     }
 
     public bool GetActive()

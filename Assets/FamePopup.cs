@@ -23,8 +23,10 @@ public class FamePopup : MonoBehaviour
             AudioMgr.Instance.PlaySE(1);
             double preValue = GameData.Instance.GetFame();
             var fame = SaveManager.Instance.GetDouble("fame", preValue);
-            SaveManager.Instance.DeleteAll();
-            SaveManager.Instance.AddDouble("fame", fame + preValue);
+
+            GameData.Instance.DeleteLocal();
+
+            SaveManager.Instance.AddDouble("fame", preValue);
             SaveManager.Instance.Save();
             GameManager.Instance.Start();
             resetLockImage.SetActive(true);

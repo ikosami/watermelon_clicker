@@ -13,15 +13,29 @@ public class FormatBigNum : MonoBehaviour
         {
             return "Infinity";
         }
-
-        string[] str = { "", "K", "M", "B", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL" };
-        //string[] str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".Split("");
         int tani = 0;
 
-        while (current >= 1000)
+        var isJp = true;
+        string[] str;
+        if (isJp)
         {
-            current /= 1000;
-            tani++;
+            str = new string[] { "", "万", "億", "兆", "京", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL" };
+
+            while (current >= 10000)
+            {
+                current /= 10000;
+                tani++;
+            }
+        }
+        else
+        {
+            str = new string[] { "", "K", "M", "B", "T", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL" };
+
+            while (current >= 1000)
+            {
+                current /= 1000;
+                tani++;
+            }
         }
 
         if (tani <= taniStart)
