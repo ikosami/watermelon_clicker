@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 /// <summary>
 /// ゲームメイン
@@ -62,6 +63,7 @@ public class GameManager : MonoBehaviour
         GameData.Instance.Load();
         StartCoroutine(GameData.Instance.SaveIE());
 
+        UpdatePower();
         facilityList.Init();
         powerUpList.Init();
         UpdatePower();
@@ -226,24 +228,28 @@ public class GameManager : MonoBehaviour
         }
         facilityNumMulti *= facilityNum;
         //倍率
-        double multi = 0;
+        double multi = 1;
         multi += Math.Floor(allMulti * 100 + facilityNumMulti);
 
         GameData.Instance.power *= 1 + (allMulti / 100.0);
         GameData.Instance.power *= 1 + (facilityNumMulti / 10000.0);
 
         var fame = SaveManager.Instance.GetDouble("fame", 0);
-        GameData.Instance.power *= 1 + (fame / 100.0);
+        multi += fame;
 
 
         if ((DateTime.Now - GameData.Instance.adsTime).Minutes < 2)
         {
-            GameData.Instance.power *= 1.5f;
+            multi *= 1.5f;
         }
         if ((DateTime.Now - GameData.Instance.tweetTime).Minutes < 10)
         {
-            GameData.Instance.power *= 1.5f;
+            multi *= 1.5f;
         }
+
+        GameData.Instance.nowMulti = multi;
+        GameData.Instance.power *= 1 + (multi / 100.0);
+
         GameData.Instance.clickPower += GameData.Instance.power * (clickPar / 100.0);
         GameData.Instance.clickPower *= clickMulti;
 

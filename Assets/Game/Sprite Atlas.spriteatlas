@@ -37,6 +37,7 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
+    - 817c7db02d9aaec45a5cb261b456bf8c: 21300000
     - 1baf8941c8af4854dace91ca826fbcb3: 21300000
     - f38b2c626897dca40bfe891871f8c614: 21300000
     - e67e67531b1051b4bbd1e0dc821ad55c: 21300000
@@ -54,6 +55,7 @@ SpriteAtlas:
     - ba588c5963ad96343bac4e2cb04a8c40: 21300000
     - 3c1b061ae4711d84d89ed7ab79eef733: 21300000
     - c9b4f55a7cb66c7448263cf3ce6b3986: 21300000
+    - 7f27df6a9fb11a8449605074b4f5127d: 21300000
     - 337b35aa5256d024b80de938c9aa11a4: 21300000
     - 43f4b41c89bde084eaeb636a5e46f0fd: 21300000
     - 3e63051cda6d3024cb668201e4831ad5: 21300000
@@ -64,6 +66,7 @@ SpriteAtlas:
     - 0b8dc7af408c127429359d967c091fd4: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 817c7db02d9aaec45a5cb261b456bf8c, type: 3}
   - {fileID: 21300000, guid: 1baf8941c8af4854dace91ca826fbcb3, type: 3}
   - {fileID: 21300000, guid: f38b2c626897dca40bfe891871f8c614, type: 3}
   - {fileID: 21300000, guid: e67e67531b1051b4bbd1e0dc821ad55c, type: 3}
@@ -81,6 +84,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ba588c5963ad96343bac4e2cb04a8c40, type: 3}
   - {fileID: 21300000, guid: 3c1b061ae4711d84d89ed7ab79eef733, type: 3}
   - {fileID: 21300000, guid: c9b4f55a7cb66c7448263cf3ce6b3986, type: 3}
+  - {fileID: 21300000, guid: 7f27df6a9fb11a8449605074b4f5127d, type: 3}
   - {fileID: 21300000, guid: 337b35aa5256d024b80de938c9aa11a4, type: 3}
   - {fileID: 21300000, guid: 43f4b41c89bde084eaeb636a5e46f0fd, type: 3}
   - {fileID: 21300000, guid: 3e63051cda6d3024cb668201e4831ad5, type: 3}
@@ -90,6 +94,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3c34914fec88f4a41a42a50038117db9, type: 3}
   - {fileID: 21300000, guid: 0b8dc7af408c127429359d967c091fd4, type: 3}
   m_PackedSpriteNamesToIndex:
+  - factory
   - fruit1
   - fruit4
   - popup_frame
@@ -107,6 +112,7 @@ SpriteAtlas:
   - buttonShop
   - suika_
   - suika_icon
+  - vinyl_house
   - white
   - back
   - suika2

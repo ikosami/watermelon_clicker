@@ -45,7 +45,7 @@ public class OffLineBonusPopup : PopupBase
         }
 
         barText.text = $"{timeStr} / {OfflineTimeHourMax}時間00分";
-        barImage.fillAmount = (float)minus / (60 * 6);
+        barImage.fillAmount = (float)minus / OfflineTimeMax;
     }
 
     public void SetValue(double add)

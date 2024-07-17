@@ -132,6 +132,7 @@ public class FacilityItem
     public double baseCost = 1;
     public double basePower = 1;
     private double nowCost = 0;
+    public Sprite sprite;
 
     public override string ToString()
     {
@@ -147,15 +148,20 @@ public class FacilityItem
         return nowCost;
     }
 
+    public double SuperMulti()
+    {
+        return Math.Pow(2, GetNum() / 10);
+    }
+
     public double GetCost()
     {
         var cost = Math.Floor(baseCost * Math.Pow(1.15, GetNum()));
-        nowCost = cost;
+        nowCost = cost * SuperMulti();
         return cost;
     }
     public double GetPower()
     {
-        return basePower * GetNum();
+        return basePower * GetNum() * SuperMulti();
     }
 
     public int GetNum()

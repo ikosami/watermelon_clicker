@@ -22,6 +22,7 @@ public class GameData
     public double value = 0;
     public double clickPower = 1;
     public double power = 0;
+    public double nowMulti = 0;
 
 
 

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Facility : MonoBehaviour
 {
+    [SerializeField] Image facilityImage;
     [SerializeField] TextMeshProUGUI nameText;
     //[SerializeField] TextMeshProUGUI descriptionText;
     [SerializeField] TextMeshProUGUI costText;
@@ -64,6 +65,13 @@ public class Facility : MonoBehaviour
     public void SetItem(FacilityItem facilityItem)
     {
         this.facilityItem = facilityItem;
+
+        if (facilityItem.sprite != null)
+        {
+            facilityImage.sprite = facilityItem.sprite;
+        }
+        nameText.text = facilityItem.name;
+
         UpdateView();
         SetLock(true);
     }
@@ -75,12 +83,12 @@ public class Facility : MonoBehaviour
 
     private void UpdateView()
     {
-        nameText.text = facilityItem.name;
         //descriptionText.text = facilityItem.description;
         costText.text = FormatBigNum.GetNumStr(facilityItem.GetCost());
         numText.text = "x" + facilityItem.GetNum().ToString();
 
-        valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(facilityItem.GetPower()));
+        var value = facilityItem.GetPower() * GameData.Instance.nowMulti;
+        valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(value));
     }
     public bool CheckLock(double value)
     {
