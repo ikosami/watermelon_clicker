@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class TabButtons : MonoBehaviour
@@ -17,12 +17,15 @@ public class TabButtons : MonoBehaviour
                 SetActive(i1);
             });
         }
+        SetActive(nowSelect);
     }
 
     public void SetActive(int select)
     {
         objs[nowSelect].SetActive(false);
+        buttons[nowSelect].transform.localScale = Vector3.one;
         nowSelect = select;
         objs[nowSelect].SetActive(true);
+        buttons[nowSelect].transform.localScale = Vector3.one*1.1f;
     }
 }

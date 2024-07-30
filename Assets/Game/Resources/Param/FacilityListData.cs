@@ -148,20 +148,26 @@ public class FacilityItem
         return nowCost;
     }
 
-    public double SuperMulti()
+    public double SuperMulti(int lv)
     {
-        return Math.Pow(2, GetNum() / 10);
+        return Math.Pow(2, lv / 10) * Math.Pow(10, lv / 100);
+    }
+    public bool IsNextSuper()
+    {
+        int lv = GetNum();
+        if (lv == 0) return false;
+        return (lv + 1) % 10 == 0;
     }
 
     public double GetCost()
     {
         var cost = Math.Floor(baseCost * Math.Pow(1.15, GetNum()));
-        nowCost = cost * SuperMulti();
-        return cost;
+        nowCost = cost * SuperMulti(GetNum());
+        return nowCost;
     }
     public double GetPower()
     {
-        return basePower * GetNum() * SuperMulti();
+        return basePower * GetNum() * SuperMulti(GetNum());
     }
 
     public int GetNum()

@@ -25,6 +25,8 @@ public class Facility : MonoBehaviour
     public bool isLock = true;
     [SerializeField] ParticleSystem _particleSystem;
 
+    [SerializeField] GameObject _superPowerUp;
+
     private void Start()
     {
         buyButton.onClick = () =>
@@ -85,10 +87,12 @@ public class Facility : MonoBehaviour
     {
         //descriptionText.text = facilityItem.description;
         costText.text = FormatBigNum.GetNumStr(facilityItem.GetCost());
-        numText.text = "x" + facilityItem.GetNum().ToString();
+        numText.text = "Lv" + facilityItem.GetNum().ToString();
 
         var value = facilityItem.GetPower() * GameData.Instance.nowMulti;
         valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(value));
+
+        _superPowerUp.gameObject.SetActive(facilityItem.IsNextSuper());
     }
     public bool CheckLock(double value)
     {
