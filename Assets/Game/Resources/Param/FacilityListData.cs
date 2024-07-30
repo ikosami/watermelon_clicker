@@ -165,9 +165,10 @@ public class FacilityItem
         nowCost = cost * SuperMulti(GetNum());
         return nowCost;
     }
-    public double GetPower()
+    public double GetPower(int add = 0)
     {
-        return basePower * GetNum() * SuperMulti(GetNum());
+        var lv = GetNum() + add;
+        return basePower * lv * SuperMulti(lv);
     }
 
     public int GetNum()

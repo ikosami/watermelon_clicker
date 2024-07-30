@@ -90,7 +90,8 @@ public class Facility : MonoBehaviour
         numText.text = "Lv" + facilityItem.GetNum().ToString();
 
         var value = facilityItem.GetPower() * GameData.Instance.nowMulti;
-        valueText.text = string.Format("{0}/s", FormatBigNum.GetNumStr(value));
+        var value2 = facilityItem.GetPower(1) * GameData.Instance.nowMulti;
+        valueText.text = string.Format("{0}/s<color=#ff0000>(+{1})</color>", FormatBigNum.GetNumStr(value), FormatBigNum.GetNumStr(value2 - value));
 
         _superPowerUp.gameObject.SetActive(facilityItem.IsNextSuper());
     }
