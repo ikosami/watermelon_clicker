@@ -43,27 +43,44 @@ SpriteAtlas:
     - e67e67531b1051b4bbd1e0dc821ad55c: 21300000
     - 9ecab7f339d34784cb719541f6dd226f: 21300000
     - c1607d2403a9f084f8eca6d1bfcbeabc: 21300000
+    - b721f044d7f9a4541a2c2c5bebe231af: 21300000
+    - 2bd9e644ebfdc624683957a9c06e22b3: 21300000
+    - 97b28854f1c66934cae55b456c858bc5: 21300000
     - 9f856b84d34bb624e80204cc2f107c0a: 21300000
+    - 0f42d1e49a5af854b849cb9259c24782: 21300000
     - 40dd0745324b963488b030f6c2792134: 21300000
     - 5ca975b549d374940a0d937a7c7d9f7b: 21300000
+    - c34e9ed5ee8fdf740abaebcbf2b9fddf: 21300000
     - d97757e5ebaae1142b1e0ebe30bca767: 21300000
     - 7a2f9916c035b8d4182ea2c88a8813e3: 21300000
+    - 318a1e461c124084ca074a6a40bed04b: 21300000
+    - 5c845176eec106144a2058044499d93a: 21300000
     - eb7828c657205c24198806d38bf75ca0: 21300000
     - fc3410c8bd5c2d34384f248ce257cac5: 21300000
     - 4b1cd319f5b43d5489cd170840f476fc: 21300000
+    - 0d6a4039662159644acda65192ca56b8: 21300000
+    - 59ac6549bdb11c14bb86725d37612b9e: 21300000
     - 67d4264930b5880448b492a299a40bd2: 21300000
     - ba588c5963ad96343bac4e2cb04a8c40: 21300000
     - 3c1b061ae4711d84d89ed7ab79eef733: 21300000
     - c9b4f55a7cb66c7448263cf3ce6b3986: 21300000
     - 7f27df6a9fb11a8449605074b4f5127d: 21300000
+    - e568609a4474be143876cd7104c0ffc4: 21300000
     - 337b35aa5256d024b80de938c9aa11a4: 21300000
+    - a23bbb0b353bc5047a7ba5ef11e28005: 21300000
+    - 901879db243fb24448aaff50e09e0c8e: 21300000
     - 43f4b41c89bde084eaeb636a5e46f0fd: 21300000
     - 3e63051cda6d3024cb668201e4831ad5: 21300000
     - d91f4efc1924ffe46865ed12dba4a93f: 21300000
     - 55d68b2e68a28344b895b0b8cb093d2c: 21300000
+    - 23603abe0d6655942b0cf747b5db8ad3: 21300000
+    - 5b99e71f4816fde47b529baf7be86453: 21300000
     - 5edc712fa4ba11a4fa8969d91027a3fb: 21300000
+    - 720b2b2f4eeb16d44a00634156580b4d: 21300000
     - 3c34914fec88f4a41a42a50038117db9: 21300000
+    - f306c99fa937207438993972358fcf85: 21300000
     - 0b8dc7af408c127429359d967c091fd4: 21300000
+    - 3838adaf52d3bec4ea5964efa2ddcc3c: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 817c7db02d9aaec45a5cb261b456bf8c, type: 3}
@@ -72,27 +89,44 @@ SpriteAtlas:
   - {fileID: 21300000, guid: e67e67531b1051b4bbd1e0dc821ad55c, type: 3}
   - {fileID: 21300000, guid: 9ecab7f339d34784cb719541f6dd226f, type: 3}
   - {fileID: 21300000, guid: c1607d2403a9f084f8eca6d1bfcbeabc, type: 3}
+  - {fileID: 21300000, guid: b721f044d7f9a4541a2c2c5bebe231af, type: 3}
+  - {fileID: 21300000, guid: 2bd9e644ebfdc624683957a9c06e22b3, type: 3}
+  - {fileID: 21300000, guid: 97b28854f1c66934cae55b456c858bc5, type: 3}
   - {fileID: 21300000, guid: 9f856b84d34bb624e80204cc2f107c0a, type: 3}
+  - {fileID: 21300000, guid: 0f42d1e49a5af854b849cb9259c24782, type: 3}
   - {fileID: 21300000, guid: 40dd0745324b963488b030f6c2792134, type: 3}
   - {fileID: 21300000, guid: 5ca975b549d374940a0d937a7c7d9f7b, type: 3}
+  - {fileID: 21300000, guid: c34e9ed5ee8fdf740abaebcbf2b9fddf, type: 3}
   - {fileID: 21300000, guid: d97757e5ebaae1142b1e0ebe30bca767, type: 3}
   - {fileID: 21300000, guid: 7a2f9916c035b8d4182ea2c88a8813e3, type: 3}
+  - {fileID: 21300000, guid: 318a1e461c124084ca074a6a40bed04b, type: 3}
+  - {fileID: 21300000, guid: 5c845176eec106144a2058044499d93a, type: 3}
   - {fileID: 21300000, guid: eb7828c657205c24198806d38bf75ca0, type: 3}
   - {fileID: 21300000, guid: fc3410c8bd5c2d34384f248ce257cac5, type: 3}
   - {fileID: 21300000, guid: 4b1cd319f5b43d5489cd170840f476fc, type: 3}
+  - {fileID: 21300000, guid: 0d6a4039662159644acda65192ca56b8, type: 3}
+  - {fileID: 21300000, guid: 59ac6549bdb11c14bb86725d37612b9e, type: 3}
   - {fileID: 21300000, guid: 67d4264930b5880448b492a299a40bd2, type: 3}
   - {fileID: 21300000, guid: ba588c5963ad96343bac4e2cb04a8c40, type: 3}
   - {fileID: 21300000, guid: 3c1b061ae4711d84d89ed7ab79eef733, type: 3}
   - {fileID: 21300000, guid: c9b4f55a7cb66c7448263cf3ce6b3986, type: 3}
   - {fileID: 21300000, guid: 7f27df6a9fb11a8449605074b4f5127d, type: 3}
+  - {fileID: 21300000, guid: e568609a4474be143876cd7104c0ffc4, type: 3}
   - {fileID: 21300000, guid: 337b35aa5256d024b80de938c9aa11a4, type: 3}
+  - {fileID: 21300000, guid: a23bbb0b353bc5047a7ba5ef11e28005, type: 3}
+  - {fileID: 21300000, guid: 901879db243fb24448aaff50e09e0c8e, type: 3}
   - {fileID: 21300000, guid: 43f4b41c89bde084eaeb636a5e46f0fd, type: 3}
   - {fileID: 21300000, guid: 3e63051cda6d3024cb668201e4831ad5, type: 3}
   - {fileID: 21300000, guid: d91f4efc1924ffe46865ed12dba4a93f, type: 3}
   - {fileID: 21300000, guid: 55d68b2e68a28344b895b0b8cb093d2c, type: 3}
+  - {fileID: 21300000, guid: 23603abe0d6655942b0cf747b5db8ad3, type: 3}
+  - {fileID: 21300000, guid: 5b99e71f4816fde47b529baf7be86453, type: 3}
   - {fileID: 21300000, guid: 5edc712fa4ba11a4fa8969d91027a3fb, type: 3}
+  - {fileID: 21300000, guid: 720b2b2f4eeb16d44a00634156580b4d, type: 3}
   - {fileID: 21300000, guid: 3c34914fec88f4a41a42a50038117db9, type: 3}
+  - {fileID: 21300000, guid: f306c99fa937207438993972358fcf85, type: 3}
   - {fileID: 21300000, guid: 0b8dc7af408c127429359d967c091fd4, type: 3}
+  - {fileID: 21300000, guid: 3838adaf52d3bec4ea5964efa2ddcc3c, type: 3}
   m_PackedSpriteNamesToIndex:
   - factory
   - fruit1
@@ -100,27 +134,44 @@ SpriteAtlas:
   - popup_frame
   - Frame
   - jem
+  - "\u30B9\u30A4\u30AB\u30A2\u30D7\u30EA\u30A2\u30A4\u30B3\u30F3"
+  - "\u5DE5\u5834"
+  - "\u661F\u306E\u679C\u6A39\u5712\uFF11"
   - button2
+  - "\u5B87\u5B99\u8FB2\u5712"
   - chara1
   - button3
+  - "\u9B54\u6CD5\u306E\u5EAD\u5712\uFF11"
   - chara2
   - fruit3
+  - "\u7A7A\u9593\u306E\u6249"
+  - "\u751F\u547D\u306E\u6CC9"
   - fruit2
   - suika
   - button1
+  - "\u30AF\u30EA\u30C3\u30D7\u30DC\u30FC\u30C9"
+  - "\u5DE5\u5834\uFF11"
   - buttonPower
   - buttonShop
   - suika_
   - suika_icon
   - vinyl_house
+  - "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB\u5DE5\u623F"
   - white
+  - "\u8D85\u6B21\u5143\u30B2\u30FC\u30C8\uFF11"
+  - bini-ruhausu
   - back
   - suika2
   - bacl
   - enemy1
+  - "\u751F\u547D\u306E\u6CC9\uFF11"
+  - "\u30D3\u30CB\u30FC\u30EB\u30CF\u30A6\u30B9\uFF11"
   - fruit6
+  - "\u661F\u9593\u683D\u57F9\u5834"
   - house
+  - ge-to
   - fruit5
+  - "\u91CD\u529B\u306E\u5EAD\uFF11"
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0

@@ -132,7 +132,7 @@ public class FacilityItem
     public double baseCost = 1;
     public double basePower = 1;
     private double nowCost = 0;
-    //[Preview]
+    [Preview]
     public Sprite sprite;
 
     public override string ToString()
